@@ -1,0 +1,273 @@
+#stageLvl {
+    width: 1500px;
+	height:750px;
+	margin: 10px auto;
+	background: url(../img/StoryBgN.png) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+#stageLvl > #difficulty{
+	width: 600px;
+	height: 500px;
+	margin: auto;
+	background: url(../img/diffBg.png);
+	background-size: 100% 100%;
+	z-index: 10;
+	position: absolute;
+	top:150px;
+	left:450px;
+}
+#stageLvl > #difficulty > #easy{
+	width: 550px;
+	height: 150px;
+	background: url(../img/orButton.png) no-repeat;
+	background-size: contain;
+	filter: hue-rotate(90deg);
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	cursor: pointer;
+}
+#stageLvl > #difficulty > #easy > h2{
+	text-align: center;
+	font-size: 50px;
+	line-height: 30px;
+	user-select: none;
+}
+#stageLvl > #difficulty > #easy > div{display: none;}
+#stageLvl > #difficulty > #easy:hover > div{
+	display: block;
+	width:288px;
+	height:102px;
+	background: url(../img/orButton.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 20px;
+	left: 550px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 30px;
+}
+#stageLvl > #difficulty > #avarage{
+	width: 550px;
+	height: 150px;
+	background: url(../img/orButton.png) no-repeat;
+	background-size: contain;
+	filter: hue-rotate(10deg);
+	position: absolute;
+	top: 180px;
+	left: 25px;
+	cursor: pointer;
+}
+#stageLvl > #difficulty > #avarage > h2{
+	text-align: center;
+	font-size: 50px;
+	line-height: 30px;
+	user-select: none;
+}
+#stageLvl > #difficulty > #avarage > div{display: none;}
+#stageLvl > #difficulty > #avarage:hover > div{
+	display: block;
+	width:288px;
+	height:102px;
+	background: url(../img/orButton.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 20px;
+	left: 550px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 30px;
+}
+#stageLvl > #difficulty > #hard{
+	width: 550px;
+	height: 150px;
+	background: url(../img/orButton.png) no-repeat;
+	background-size: contain;
+	filter: hue-rotate(-25deg);
+	position: absolute;
+	top: 335px;
+	left: 25px;
+	cursor: pointer;
+}
+#stageLvl > #difficulty > #hard > h2{
+	text-align: center;
+	font-size: 50px;
+	line-height: 30px;
+	user-select: none;
+}
+#stageLvl > #difficulty > #hard > div{display: none;}
+#stageLvl > #difficulty > #hard:hover > div{
+	display: block;
+	width:288px;
+	height:102px;
+	background: url(../img/orButton.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 20px;
+	left: 550px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 30px;
+}
+#stageLvl  > #diffButton{
+	width: 240px;
+	height: 65px;
+	background: url(../img/orButton.png) no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: 104px;
+	right: 65px;
+	z-index: 20;
+}
+#stageLvl > #back{
+	width: 80px;
+	height: 50px;
+	position: absolute;
+	top: 25px;
+	left: 0;
+}
+#stageLvl > #level1{
+	width: 350px;
+	height: 450px;
+	position: absolute;
+	bottom: 50px;
+	right: 160px;
+	cursor: pointer;
+}
+#stageLvl > #level2{
+	width: 390px;
+	height: 280px;
+	position: absolute;
+	bottom: 300px;
+	left: 595px;
+	cursor: pointer;
+}
+#stageLvl > #level3{
+	width: 410px;
+	height: 410px;
+	position: absolute;
+	bottom: 30px;
+	left: 180px;
+	cursor: pointer;
+}
+#stageLvl > #locklvl2{
+	width: 170px;
+	height: 170px;
+	background: url(../img/LvlLock.png) no-repeat;
+	background-size: contain;
+	z-index: 5;
+	position: absolute;
+	top: 210px;
+	left: 690px;
+}
+#stageLvl > #locklvl2 > div{display: none;}
+#stageLvl > #locklvl2:hover > div{
+	display: block;
+	width:130px;
+	height:75px;
+	background: url(../img/orButton.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 170px;
+	left: 5px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 30px;
+}
+#stageLvl > #locklvl3{
+	width: 170px;
+	height: 170px;
+	background: url(../img/LvlLock.png) no-repeat;
+	background-size: contain;
+	z-index: 5;
+	position: absolute;
+	top:450px;
+	left:370px;
+}
+#stageLvl > #locklvl3 > div{display: none;}
+#stageLvl > #locklvl3:hover > div{
+	display: block;
+	width:130px;
+	height:75px;
+	background: url(../img/orButton.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 170px;
+	left: 5px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 30px;
+}
+#stageLvl > #selectMode{
+	width: 900px;
+	height: 500px;
+	margin: auto;
+	background: url(../img/diffBg.png);
+	background-size: 100% 100%;
+	z-index: 10;
+	position: absolute;
+	top:175px;
+	left:300px;
+}
+#stageLvl > #selectMode > #ai{
+	width: 410px;
+	height: 410px;
+	background:url(../img/Ai.png) 30px 15px/350px 350px no-repeat, url(../img/orButton.png) 0px 0px/100% 100% no-repeat;
+	position: absolute;
+	top: 45px;
+	left: 25px;
+	cursor: pointer;
+}
+#stageLvl > #selectMode > #ai > div{display: none;}
+#stageLvl > #selectMode > #ai:hover > div{
+	display: block;
+	width: 225px;
+	height: 60px;
+	background:url(../img/orButton.png) 0px 0px/100% 100% no-repeat;
+	position: absolute;
+	top: 150px;
+	left: -225px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 45px;
+}
+#stageLvl > #selectMode > #pvp{
+	width: 410px;
+	height: 410px;
+	background:url(../img/PvpImg.png) 30px 15px/350px 350px no-repeat, url(../img/orButton.png) 0px 0px/100% 100% no-repeat;
+	position: absolute;
+	top: 45px;
+	left: 460px;
+	cursor: pointer;
+}
+#stageLvl > #selectMode > #pvp > div{display: none;}
+#stageLvl > #selectMode > #pvp:hover > div{
+	display: block;
+	width: 300px;
+	height: 125px;
+	background:url(../img/orButton.png) 0px 0px/100% 100% no-repeat;
+	position: absolute;
+	top: 130px;
+	right: -300px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 36px;
+}
+#stageLvl  > #modeButton{
+	width: 110px;
+	height: 110px;
+	background: url(../img/orButton.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 180px;
+	right: 65px;
+	z-index: 20;
+}

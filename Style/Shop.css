@@ -1,0 +1,378 @@
+#stage > #shop{
+	width: 120px;
+	height: 100px;
+	position:absolute;
+	bottom:35px;
+	right:60px;
+}
+#stage > #shop:hover{
+	cursor: pointer;
+}
+#stage > #shopPage{
+	width: 1500px;
+	height:750px;
+	margin: 10px auto;
+	background: url(../img/store1.png) no-repeat; 
+	background-size: 100% 100%;
+}
+#stage > #shopPage > #backShop{
+	width:80px;
+	height:50px;
+	position:absolute;
+	top:25px;
+	left:5px; 
+}
+#stage > #shopPage > #backShop:hover{
+	cursor: pointer;
+}
+#stage > #shopPage > #store2{
+	width:420px;
+	height:280px;
+	position:absolute;
+	background:url(../img/store2.jpg);
+	background-size: 100% 100%;
+	top:150px;
+	left:125px;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+#stage > #shopPage > #store2:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+#stage > #shopPage > #store3{
+	width:420px;
+	height:280px;
+	position:absolute;
+	background:url(../img/store3.jpg);
+	background-size: 100% 100%;
+	top:150px;
+	left:570px;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+#stage > #shopPage > #store3:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+#stage > #shopPage > #store4{
+	width:420px;
+	height:280px;
+	position:absolute;
+	background:url(../img/store4.jpg);
+	background-size: 100% 100%;
+	top:150px;
+	right:70px;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+#stage > #shopPage > #store4:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+#stage > #shopPage > #store5{
+	width:420px;
+	height:280px;
+	position:absolute;
+	background:url(../img/store5.jpg);
+	background-size: 100% 100%;
+	bottom:17px;
+	left:125px;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+#stage > #shopPage > #store5:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+#stage > #shopPage > #store6{
+	width:420px;
+	height:280px;
+	position:absolute;
+	background:url(../img/store6.jpg);
+	background-size: 100% 100%;
+	bottom:17px;
+	left:570px;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+#stage > #shopPage > #store6:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+#stage > #shopPage > #store7{
+	width:420px;
+	height:280px;
+	position:absolute;
+	background:url(../img/store7.jpg);
+	background-size: 100% 100%;
+	bottom:17px;
+	right:70px;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+#stage > #shopPage > #store7:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+#stage > #shopPage > #items2{
+	width: 1500px;
+	height:750px;
+	position: absolute;
+	background: url(../img/items2.png) no-repeat; 
+	background-size:100% 100%;
+	z-index:2000;
+}
+#stage > #shopPage > #items3{
+	width: 1500px;
+	height:750px;
+	position: absolute;
+	background: url(../img/items3.png) no-repeat; 
+	background-size:100% 100%;
+	z-index:2000;
+}
+#stage > #shopPage > #items4{
+	width: 1500px;
+	height:750px;
+	position: absolute;
+	background: url(../img/items4.png) no-repeat; 
+	background-size:100% 100%;
+	z-index:2000;
+}
+#stage > #shopPage > #items5{
+	width: 1500px;
+	height:750px;
+	position: absolute;
+	background: url(../img/items5.png) no-repeat; 
+	background-size:100% 100%;
+	z-index:2000;
+}
+#stage > #shopPage > #items7{
+	width: 1500px;
+	height:750px;
+	position: absolute;
+	background: url(../img/items7.png) no-repeat; 
+	background-size:100% 100%;
+	z-index:2000;
+}
+#stage > #shopPage > #items2 > #Items2P1{
+	width:400px;
+	height:432px;
+	position:absolute;
+	top:272px;
+	left:122px;
+	background:url(../img/items2P1.jpg);
+	background-size: 100% 100%;
+	border-radius:20px;
+	transition: 0.3s;
+}
+#stage > #shopPage > #items2 > #Items2P1:hover{
+	cursor:pointer;
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+#stage > #shopPage > #items2 > #Items2P2{
+	width:423px;
+	height:453px;
+	position:absolute;
+	top:261px;
+	left:556px;
+	background:url(../img/items2P2.jpg);
+	background-size: 100% 100%;
+	border-radius:30px;
+	transition: 0.3s;
+}
+#stage > #shopPage > #items2 > #Items2P2:hover{
+	cursor:pointer;
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+#stage > #shopPage > #items2 > #Items2P3{
+	width:423px;
+	height:453px;
+	position:absolute;
+	top:261px;
+	right:76px;
+	background:url(../img/items2P3.jpg);
+	background-size: 100% 100%;
+	border-radius:30px;
+	transition: 0.3s;
+}
+#stage > #shopPage > #items2 > #Items2P3:hover{
+	cursor:pointer;
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+#stage > #shopPage > #store3 ~ #items3 > #Items3P1{
+	width:400px;
+	height:432px;
+	position:absolute;
+	top:272px;
+	left:122px;
+	background:url(../img/items3P1.jpg);
+	background-size: 100% 100%;
+	border-radius:20px;
+	transition: 0.3s;
+}
+#stage > #shopPage > #store3 ~ #items3 > #Items3P1:hover{
+	cursor:pointer;
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+#stage > #shopPage > #store3 ~ #items3 > #Items3P2{
+	width:423px;
+	height:453px;
+	position:absolute;
+	top:261px;
+	left:556px;
+	background:url(../img/items3P2.jpg);
+	background-size: 100% 100%;
+	border-radius:30px;
+	transition: 0.3s;
+}
+#stage > #shopPage > #store3 ~ #items3 > #Items3P2:hover{
+	cursor:pointer;
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+#stage > #shopPage > #store3 ~ #items3 > #Items3P3{
+	width:423px;
+	height:453px;
+	position:absolute;
+	top:261px;
+	right:76px;
+	background:url(../img/items3P3.jpg);
+	background-size: 100% 100%;
+	border-radius:30px;
+	transition: 0.3s;
+}
+#stage > #shopPage > #store3 ~ #items3 > #Items3P3:hover{
+	cursor:pointer;
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+#stage > #shopPage > #store4 ~ #items4 > #Items4P1{
+	width:400px;
+	height:432px;
+	position:absolute;
+	top:272px;
+	left:122px;
+	background:url(../img/items4P1.jpg);
+	background-size: 100% 100%;
+	border-radius:20px;
+	transition: 0.3s;
+}
+#stage > #shopPage > #store4 ~ #items4 > #Items4P1:hover{
+	cursor:pointer;
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+#stage > #shopPage > #store4 ~ #items4 > #Items4P2{
+	width:423px;
+	height:453px;
+	position:absolute;
+	top:261px;
+	left:556px;
+	background:url(../img/items4P2.jpg);
+	background-size: 100% 100%;
+	border-radius:30px;
+	transition: 0.3s;
+}
+#stage > #shopPage > #store4 ~ #items4 > #Items4P2:hover{
+	cursor:pointer;
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+#stage > #shopPage > #store4 ~ #items4 > #Items4P3{
+	width:423px;
+	height:453px;
+	position:absolute;
+	top:261px;
+	right:76px;
+	background:url(../img/items4P3.jpg);
+	background-size: 100% 100%;
+	border-radius:30px;
+	transition: 0.3s;
+}
+#stage > #shopPage > #store4 ~ #items4 > #Items4P3:hover{
+	cursor:pointer;
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+#stage > #shopPage > #store5 ~ #items5 > #Items5P1{
+	width:400px;
+	height:432px;
+	position:absolute;
+	top:272px;
+	left:122px;
+	background:url(../img/items5P1.jpg);
+	background-size: 100% 100%;
+	border-radius:20px;
+	transition: 0.3s;
+}
+#stage > #shopPage > #store5 ~ #items5 > #Items5P1:hover{
+	cursor:pointer;
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+#stage > #shopPage > #store5 ~ #items5 > #Items5P2{
+	width:423px;
+	height:453px;
+	position:absolute;
+	top:258px;
+	left:556px;
+	background:url(../img/items5P2.jpg);
+	background-size: 100% 100%;
+	border-radius:30px;
+	transition: 0.3s;
+}
+#stage > #shopPage > #store5 ~ #items5 > #Items5P2:hover{
+	cursor:pointer;
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+#stage > #shopPage > #store5 ~ #items5 > #Items5P3{
+	width:423px;
+	height:453px;
+	position:absolute;
+	top:258px;
+	right:76px;
+	background:url(../img/items5P3.jpg);
+	background-size: 100% 100%;
+	border-radius:30px;
+	transition: 0.3s;
+}
+#stage > #shopPage > #store5 ~ #items5 > #Items5P3:hover{
+	cursor:pointer;
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+#stage > #shopPage > #store7 ~ #items7 > #Items7P1{
+	width:425px;
+	height:457px;
+	position:absolute;
+	top:169px;
+	left:108px;
+	background:url(../img/items7P1.jpg);
+	background-size: 100% 100%;
+	transition: 0.3s;
+}
+#stage > #shopPage > #store7 ~ #items7 > #Items7P1:hover{
+	cursor:pointer;
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+.backItems{
+	width:80px;
+	height:50px;
+	top:25px;
+	left:5px;
+	position: absolute;
+	cursor: pointer;
+}

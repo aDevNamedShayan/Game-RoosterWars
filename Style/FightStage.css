@@ -1,0 +1,193 @@
+#lvl1{
+	width: 1500px;
+	height:750px;
+	margin: 10px auto;
+	background: url(../img/lvl1Bg.png) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	overflow: hidden;
+}
+#lvl1 > #fightBtn{
+	background: url(../img/fightoption.png) no-repeat;
+	width: 800px;
+	height:220px;
+	margin: 10px auto;
+	background-size: 100% 100%;
+	position: absolute;
+	left:350px;
+	bottom:0px;
+	z-index: 1000;
+}
+#lvl1 > #fightBtn > #fist{
+	background: url(../img/fist.png) no-repeat;
+	width: 203px;
+	height:177px;
+	margin: 10px auto;
+	background-size: 100% 100%;
+	position: absolute;
+	left:132px;
+	bottom:28px;
+	z-index: 1100;
+}
+#lvl1 > #fightBtn > #fist > #leftarrow{
+	background: url(../img/Icons/LeftArrow.png) no-repeat 20% 0%;
+	width: 50px;
+	height:50px;
+	background-size: contain;
+	position: absolute;
+	left:80px;
+	bottom:-44px;
+	z-index: 1100;
+}
+#lvl1 > #fightBtn > #leg{
+	background: url(../img/kick.png) no-repeat 20% 0%;
+	width: 130px;
+	height:130px;
+	background-size: 150px;
+	position: absolute;
+	left:340px;
+	bottom:70px;
+	z-index: 1100;
+}
+#lvl1 > #fightBtn > #leg > #downarrow{
+	background: url(../img/Icons/DownArrow.png) no-repeat 20% 0%;
+	width: 50px;
+	height:50px;
+	background-size: contain;
+	position: absolute;
+	left:40px;
+	bottom:-77px;
+	z-index: 1100;
+}
+#lvl1 > #fightBtn > #knife{
+	background: url(../img/knife.png) no-repeat 20% 0%;
+	width: 130px;
+	height:130px;
+	background-size: 150px;
+	position: absolute;
+	right:160px;
+	bottom:65px;
+	z-index: 1100;
+}
+#lvl1 > #fightBtn > #knife > #rightarrow{
+	background: url(../img/Icons/RightArrow.png) no-repeat 20% 0%;
+	width: 50px;
+	height:50px;
+	background-size: contain;
+	position: absolute;
+	left:40px;
+	bottom:-71px;
+	z-index: 1100;
+}
+#lvl1  > #player{
+	width: 830px;
+	height:390px;
+	position: absolute;
+	bottom: 10px;
+	left: -100px;
+}
+#lvl1  > #enemy{
+	width: 575px;
+	height:340px;
+	position: absolute;
+	bottom: 10px;
+	right: 80px;
+}
+#lvl1  > .enhealthContainer{
+	width: 550px;
+    background-color: #d7d7d7;
+    border: 10px solid #707070;
+    border-radius: 30px;
+    overflow: hidden;
+    height: 30px;
+	position:absolute;
+    top:4%;
+    right:4.5%;
+} 
+#lvl1  >  .enhealthContainer  >  #enhealthBar{
+	height: 100%;
+    width: 100%;
+	background-color: #e3cd00;
+    transition: width 0.3s;
+}
+#lvl1  >  .enhealthContainer  >  #enhealthText{
+	position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 12%;
+    font-weight: bold;
+    color: #000;
+	user-select: none;
+}
+#lvl1  > .healthContainer{
+	width: 550px;
+    background-color: #d7d7d7;
+    border: 10px solid #707070;
+    border-radius: 30px;
+    overflow: hidden;
+    height: 30px;
+	position:absolute;
+    top:4%;
+    left:4.5%;
+	direction: rtl;
+} 
+#lvl1  >  .healthContainer  >  #healthBar{
+	height: 100%;
+    width: 100%;
+	background-color: #e3cd00;
+    transition: width 0.3s;
+}
+#lvl1  >  .healthContainer  >  #healthText{
+	position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 12%;
+    font-weight: bold;
+    color: #000;
+	user-select: none;
+}
+#lvl1 > #winpage{
+	background: url(../img/Win.png ) -3em 0em no-repeat;
+	background-size: contain;
+	width:101%;
+	height:97%;
+	position: fixed;
+	backdrop-filter: blur(5px);
+}
+#lvl1 > #losepage{
+	background: url(../img/Lose.png) -3em 0em no-repeat;
+	background-size: contain;
+	width:101%;
+	height:97%;
+	position: fixed;
+	backdrop-filter: blur(5px);
+}
+#lvl1 > #guide{
+	background: url(../img/diffBg.png) 28em 15em/38em 16em no-repeat;
+	width:100%;
+	height:100%;
+	position: absolute;
+	z-index: 1000000;
+	backdrop-filter: blur(10px);
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+}
+#lvl1 > #guide > #guideCloseBtn{
+	background: url(../img/XBtn.png) 62em 15em/4em 4em no-repeat;
+	width:100%;
+	height:100%;
+	position: absolute;
+	z-index: 1000000;
+	cursor: pointer;
+}
+#lvl1 > #guide > #guideTxt{
+	text-align: center;
+  	line-height: 170%;
+  	font-weight: bold;
+  	font-family: nasim;
+  	font-size: 30px;
+  	color: wheat;
+	position: absolute;
+	top:10.3em;
+	left:15.5em;
+}

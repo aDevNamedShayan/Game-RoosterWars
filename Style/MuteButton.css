@@ -1,0 +1,9 @@
+#stage > #muteBtn{
+	width: 100px;
+	height: 100px;
+	background-size: contain;
+	position:absolute;
+	bottom:5px;
+	left:100px;
+    cursor: pointer;
+}

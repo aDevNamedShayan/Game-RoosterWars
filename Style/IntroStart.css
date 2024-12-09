@@ -1,0 +1,38 @@
+#start{
+    width: 1500px;
+	height:750px;
+	margin: 10px auto;
+	background: url(../img/LoadingScreen.png) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	overflow: hidden;
+	opacity: 0;
+	transition: opacity 3s ease-in-out;
+}
+#start > #logo{
+	width: 455px;
+	height:290px;
+	background: url(../img/Logo.png) no-repeat;
+	background-size: contain;
+	position: absolute;
+	top:13px;
+	left: 504px;
+}
+#start > #play{
+	width: 425px;
+	height:125px;
+	background: url(../img/PlayBtn.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	bottom:40px;
+	left: 540px;
+    cursor: pointer;
+}
+#start > #play > div{
+	text-align: center; 
+	font-size: 45px; 
+	line-height: 115px; 
+	user-select: none; 
+	font-weight: 1000;
+	color: #ffd1b5;
+}

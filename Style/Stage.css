@@ -1,0 +1,153 @@
+#stage{
+    width: 1500px;
+	height:750px;
+	margin: 10px auto;
+	background: url(../img/khorosBg1.png) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	overflow: hidden;
+	opacity: 0;
+	transition: opacity 3s ease-in-out;
+}
+#stage:has(> #shopPage.show){
+	overflow: visible;
+}
+#stage > #story{
+	width: 300px;
+	height:170px;
+	background:url(../img/orButton.png) 0px 0px/100% 100% no-repeat;
+	position: absolute;
+	transform: rotate(90deg);
+	top: 240px;
+	left: -70px;
+	transition: 0.3s;
+}
+#stage > #story::before{
+	content: '';
+	width: 150px;
+	height:150px;
+	background:url(../img/StoryPic.png) no-repeat;
+	background-size: contain;
+	position: absolute;
+	transform: rotate(-90deg);
+	top: 0;
+	left: 90px;
+}
+#stage > #story:hover{
+	cursor: pointer;
+	width: 340px;
+	height: 200px;
+	transition: 0.3s;
+}
+#stage > #war{
+	width: 135px;
+	height:100px;
+	position: absolute;
+	margin-top: 300px;
+	top: 0;
+	left: 0;
+}
+#stage > #war:hover{
+	cursor: pointer;
+	
+}
+#stage > #khoros{
+	width: 830px;
+	height:390px;
+	position: absolute;
+	top: 175px;
+	left: 335px;
+}
+#stage > #khoros > span{
+	width:322px;
+	height:312px;
+	position:absolute;
+	top:50px;
+	left:85px;
+}
+#stage > #leave{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: url(../img/leave.png) 29em 15em/35em 16em no-repeat;
+	backdrop-filter: blur(0.6em);
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 100;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+}
+#stage > #leave > #No{
+	width:100px;
+	height:50px;
+	position:absolute;
+	top:410px;
+	left:585px;
+
+}
+#stage > #leave > #No:hover{
+	cursor: pointer;
+}
+#stage > #leave > #Yes{
+	width:105px;
+	height:50px;
+	position:absolute;
+	top:410px;
+	right:595px;
+
+}
+#stage > #leave > #Yes:hover{
+	cursor: pointer;
+}
+#stage > #sekeh{
+	width:44px;
+	height:39px;
+	top:30px;
+	right:264px;
+	position:absolute;
+	cursor:pointer;
+}
+#stage > #gem{
+	width:44px;
+	height:39px;
+	top:30px;
+	right:550px;
+	position:absolute;
+	cursor:pointer;
+}
+#stage > #CharSelect{
+	width: 250px;
+	height: 500px;
+	background:url(../img/diffBg.png) 0px 0px/100% 100% no-repeat;
+	position: absolute;
+	top: 90px;
+	right: 15px;
+	cursor: pointer;
+}
+#stage > #CharSelect > #Player1{
+	width: 220px;
+	height: 220px;
+	background:url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/01.png) -50px 25px/300px 150px no-repeat, url(../img/orButton.png) 0px 0px/100% 100% no-repeat;
+	position: absolute;
+	top: 30px;
+	left: 15px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+#stage > #CharSelect > #Player1:hover{
+	transition: 0.3s;
+	transform: scale(1.05);
+}
+#stage > #CharSelect > #Player2{
+	width: 220px;
+	height: 220px;
+	background:url(../KeyFrames/KeyframesP2/KeyframesPlayer2Standing/01.png) 25px 10px/150px 180px no-repeat, url(../img/orButton.png) 0px 0px/100% 100% no-repeat;
+	position: absolute;
+	top: 260px;
+	left: 15px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+#stage > #CharSelect > #Player2:hover{
+	transition: 0.3s;
+	transform: scale(1.05);
+}

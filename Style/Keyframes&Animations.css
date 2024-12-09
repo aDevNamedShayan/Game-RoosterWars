@@ -1,0 +1,742 @@
+/* Player keyFrames */
+
+@keyframes standnewAnim{
+	0%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/01.png)}
+	3%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/02.png)}
+	6%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/03.png)}
+	9%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/04.png)}
+	12%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/05.png)}
+	15%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/06.png)}
+	18%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/07.png)}
+	21%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/08.png)}
+	24%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/09.png)}
+	27%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/10.png)}
+	30%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/11.png)}
+	33%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/12.png)}
+	36%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/13.png)}
+	39%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/14.png)}
+	42%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/15.png)}
+	45%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/16.png)}
+	48%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/17.png)}
+	51%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/18.png)}
+	54%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/19.png)}
+	57%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/20.png)}
+	60%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/21.png)}
+	63%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/22.png)}
+	66%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/23.png)}
+	69%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/24.png)}
+	72%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/25.png)}
+	75%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/26.png)}
+	78%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/27.png)}
+	81%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/28.png)}
+	84%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/29.png)}
+	87%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/30.png)}
+	90%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/31.png)}
+	100%{background-image: url(../KeyFrames/KeyframesP1/KeyframesStandNEWNOBG/32.png)}
+}
+@keyframes punchAnim{
+	0%{background-image: url(../KeyFrames/KeyframesP1/KeyframesPunch/01.png)}
+	7%{background-image: url(../KeyFrames/KeyframesP1/KeyframesPunch/02.png)}
+	14%{background-image: url(../KeyFrames/KeyframesP1/KeyframesPunch/03.png)}
+	21%{background-image: url(../KeyFrames/KeyframesP1/KeyframesPunch/04.png)}
+	28%{background-image: url(../KeyFrames/KeyframesP1/KeyframesPunch/05.png)}
+	35%{background-image: url(../KeyFrames/KeyframesP1/KeyframesPunch/06.png)}
+	42%{background-image: url(../KeyFrames/KeyframesP1/KeyframesPunch/07.png)}
+	49%{background-image: url(../KeyFrames/KeyframesP1/KeyframesPunch/08.png)}
+	56%{background-image: url(../KeyFrames/KeyframesP1/KeyframesPunch/09.png)}
+	63%{background-image: url(../KeyFrames/KeyframesP1/KeyframesPunch/10.png)}
+	70%{background-image: url(../KeyFrames/KeyframesP1/KeyframesPunch/11.png)}
+	77%{background-image: url(../KeyFrames/KeyframesP1/KeyframesPunch/12.png)}
+	89%{background-image: url(../KeyFrames/KeyframesP1/KeyframesPunch/13.png)}
+	100%{background-image: url(../KeyFrames/KeyframesP1/KeyframesPunch/14.png)}
+}
+@keyframes kickAnim{
+	0%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKick/01.png);}
+	7%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKick/02.png);}
+	14%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKick/03.png);}
+	21%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKick/04.png);}
+	28%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKick/05.png);}
+	35%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKick/06.png);}
+	42%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKick/07.png);}
+	49%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKick/08.png);}
+	56%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKick/09.png);}
+	63%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKick/10.png);}
+	70%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKick/11.png);}
+	77%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKick/12.png);}
+	84%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKick/13.png);}
+	91%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKick/14.png);}
+	100%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKick/15.png);}
+}
+@keyframes enemystandAnim{
+	0%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyStandingNOBG/01.png);}
+	10%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyStandingNOBG/02.png);}
+	20%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyStandingNOBG/03.png);}
+	30%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyStandingNOBG/04.png);}
+	40%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyStandingNOBG/05.png);}
+	50%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyStandingNOBG/06.png);}
+	60%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyStandingNOBG/07.png);}
+	70%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyStandingNOBG/08.png);}
+	80%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyStandingNOBG/09.png);}
+	90%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyStandingNOBG/10.png);}
+	100%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyStandingNOBG/11.png);}
+}
+@keyframes enemyhitAnim{
+	0%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyHit/01.png);}
+	11%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyHit/02.png);}
+	22%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyHit/03.png);}
+	33%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyHit/04.png);}
+	44%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyHit/05.png);}
+	55%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyHit/06.png);}
+	66%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyHit/07.png);}
+	77%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyHit/08.png);}
+	88%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyHit/09.png);}
+	100%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyHit/10.png);}
+}
+@keyframes enemydieAnim{
+	0%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDie/01.png);}
+	1%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDie/02.png);}
+	2%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDie/03.png);}
+	3%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDie/04.png);}
+	4%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDie/05.png);}
+	5%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDie/06.png);}
+	6%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDie/07.png);}
+	7%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDie/08.png);}
+	8%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDie/09.png);}
+	9%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDie/010.png);}
+	10%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDie/11.png);}
+	11%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDie/12.png);}
+	12%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDie/13.png);}
+	13%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDie/14.png);}
+	14%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDie/15.png);}
+	15%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDie/16.png);}
+	100%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDie/16.png);}
+}
+@keyframes enemypunchAnim{
+	0%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch/01.png);}
+	8%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch/02.png);}
+	16%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch/03.png);}
+	24%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch/04.png);}
+	32%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch/05.png);}
+	40%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch/06.png);}
+	48%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch/07.png);}
+	56%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch/08.png);}
+	64%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch/09.png);}
+	72%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch/10.png);}
+	80%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch/11.png);}
+	88%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch/12.png);}
+	100%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch/13.png);}
+}
+@keyframes hitAnim{
+	0%{background-image: url(../KeyFrames/KeyframesP1/KeyframesHit/01.png);}
+	11%{background-image: url(../KeyFrames/KeyframesP1/KeyframesHit/02.png);}
+	22%{background-image: url(../KeyFrames/KeyframesP1/KeyframesHit/03.png);}
+	33%{background-image: url(../KeyFrames/KeyframesP1/KeyframesHit/04.png);}
+	44%{background-image: url(../KeyFrames/KeyframesP1/KeyframesHit/05.png);}
+	55%{background-image: url(../KeyFrames/KeyframesP1/KeyframesHit/06.png);}
+	66%{background-image: url(../KeyFrames/KeyframesP1/KeyframesHit/07.png);}
+	77%{background-image: url(../KeyFrames/KeyframesP1/KeyframesHit/08.png);}
+	88%{background-image: url(../KeyFrames/KeyframesP1/KeyframesHit/09.png);}
+	100%{background-image: url(../KeyFrames/KeyframesP1/KeyframesHit/10.png);}
+}
+@keyframes enemykickAnim{
+	0%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyKick/01.png);}
+	6%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyKick/02.png);}
+	12%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyKick/03.png);}
+	18%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyKick/04.png);}
+	24%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyKick/05.png);}
+	30%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyKick/06.png);}
+	36%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyKick/07.png);}
+	42%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyKick/08.png);}
+	48%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyKick/09.png);}
+	54%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyKick/10.png);}
+	60%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyKick/11.png);}
+	66%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyKick/12.png);}
+	72%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyKick/13.png);}
+	78%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyKick/14.png);}
+	84%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyKick/15.png);}
+	90%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyKick/16.png);}
+	95%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyKick/17.png);}
+	100%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyKick/18.png);}
+}
+@keyframes knifeAnim{
+	0%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/01.png);}
+	4%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/02.png);}
+	8%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/03.png);}
+	12%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/04.png);}
+	16%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/05.png);}
+	20%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/06.png);}
+	24%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/07.png);}
+	28%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/08.png);}
+	32%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/09.png);}
+	36%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/10.png);}
+	40%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/11.png);}
+	44%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/12.png);}
+	48%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/13.png);}
+	52%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/14.png);}
+	56%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/15.png);}
+	60%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/16.png);}
+	64%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/17.png);}
+	68%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/18.png);}
+	72%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/19.png);}
+	76%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/20.png);}
+	80%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/21.png);}
+	84%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/22.png);}
+	88%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/23.png);}
+	92%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/24.png);}
+	96%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/25.png);}
+	100%{background-image: url(../KeyFrames/KeyframesP1/KeyframesKnife/26.png);}
+}
+@keyframes dieAnim {
+	0%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDie/01.png);}
+	1%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDie/02.png);}
+	2%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDie/03.png);}
+	3%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDie/04.png);}
+	4%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDie/05.png);}
+	5%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDie/06.png);}
+	6%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDie/07.png);}
+	7%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDie/08.png);}
+	8%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDie/09.png);}
+	9%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDie/10.png);}
+	10%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDie/11.png);}
+	11%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDie/12.png);}
+	12%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDie/13.png);}
+	13%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDie/14.png);}
+	14%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDie/15.png);}
+	15%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDie/16.png);}
+	16%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDie/17.png);}
+	17%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDie/18.png);}
+	100%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDie/18.png);}
+}
+@keyframes winAnim {
+	0%{background-image: url(../KeyFrames/KeyframesP1/KeyframesWin/01.png);}
+	7%{background-image: url(../KeyFrames/KeyframesP1/KeyframesWin/02.png);}
+	14%{background-image: url(../KeyFrames/KeyframesP1/KeyframesWin/03.png);}
+	21%{background-image: url(../KeyFrames/KeyframesP1/KeyframesWin/04.png);}
+	28%{background-image: url(../KeyFrames/KeyframesP1/KeyframesWin/05.png);}
+	35%{background-image: url(../KeyFrames/KeyframesP1/KeyframesWin/06.png);}
+	42%{background-image: url(../KeyFrames/KeyframesP1/KeyframesWin/07.png);}
+	49%{background-image: url(../KeyFrames/KeyframesP1/KeyframesWin/08.png);}
+	56%{background-image: url(../KeyFrames/KeyframesP1/KeyframesWin/09.png);}
+	63%{background-image: url(../KeyFrames/KeyframesP1/KeyframesWin/10.png);}
+	70%{background-image: url(../KeyFrames/KeyframesP1/KeyframesWin/11.png);}
+	77%{background-image: url(../KeyFrames/KeyframesP1/KeyframesWin/12.png);}
+	84%{background-image: url(../KeyFrames/KeyframesP1/KeyframesWin/13.png);}
+	90%{background-image: url(../KeyFrames/KeyframesP1/KeyframesWin/14.png);}
+	95%{background-image: url(../KeyFrames/KeyframesP1/KeyframesWin/15.png);}
+	100%{background-image: url(../KeyFrames/KeyframesP1/KeyframesWin/16.png);}
+}
+@keyframes dodgeAnim {
+	0%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDodge/01.png);}
+	7%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDodge/02.png);}
+	14%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDodge/03.png);}
+	21%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDodge/04.png);}
+	28%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDodge/05.png);}
+	35%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDodge/06.png);}
+	42%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDodge/07.png);}
+	49%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDodge/08.png);}
+	56%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDodge/09.png);}
+	63%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDodge/10.png);}
+	70%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDodge/11.png);}
+	77%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDodge/12.png);}
+	84%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDodge/13.png);}
+	90%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDodge/14.png);}
+	95%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDodge/15.png);}
+	100%{background-image: url(../KeyFrames/KeyframesP1/KeyframesDodge/16.png);}
+}
+@keyframes enemypunch2Anim{
+	0%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch2/01.png);}
+	7%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch2/02.png);}
+	14%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch2/03.png);}
+	21%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch2/04.png);}
+	28%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch2/05.png);}
+	35%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch2/06.png);}
+	42%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch2/07.png);}
+	49%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch2/08.png);}
+	56%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch2/09.png);}
+	63%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch2/10.png);}
+	70%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch2/11.png);}
+	77%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch2/12.png);}
+	84%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch2/13.png);}
+	90%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch2/14.png);}
+	95%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch2/15.png);}
+	100%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyPunch2/16.png);}
+}
+@keyframes enemydodgeAnim{
+	0%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDodge/01.png);}
+	9%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDodge/02.png);}
+	18%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDodge/03.png);}
+	27%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDodge/04.png);}
+	36%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDodge/05.png);}
+	45%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDodge/06.png);}
+	54%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDodge/07.png);}
+	63%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDodge/08.png);}
+	72%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDodge/09.png);}
+	81%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDodge/10.png);}
+	90%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDodge/11.png);}
+	100%{background-image: url(../KeyFrames/KeyframesE1/KeyframesEnemyDodge/12.png);}
+}
+	/* Player2 Keyframes */
+@keyframes standAnim2{
+	0%{background-image:url(../KeyFrames/KeyframesP2/KeyframesPlayer2Standing/01.png) ;}
+	6%{background-image:url(../KeyFrames/KeyframesP2/KeyframesPlayer2Standing/02.png) ;}
+	12%{background-image:url(../KeyFrames/KeyframesP2/KeyframesPlayer2Standing/03.png) ;}
+	18%{background-image:url(../KeyFrames/KeyframesP2/KeyframesPlayer2Standing/04.png) ;}
+	24%{background-image:url(../KeyFrames/KeyframesP2/KeyframesPlayer2Standing/05.png) ;}
+	30%{background-image:url(../KeyFrames/KeyframesP2/KeyframesPlayer2Standing/06.png) ;}
+	36%{background-image:url(../KeyFrames/KeyframesP2/KeyframesPlayer2Standing/07.png) ;}
+	42%{background-image:url(../KeyFrames/KeyframesP2/KeyframesPlayer2Standing/08.png) ;}
+	48%{background-image:url(../KeyFrames/KeyframesP2/KeyframesPlayer2Standing/09.png) ;}
+	54%{background-image:url(../KeyFrames/KeyframesP2/KeyframesPlayer2Standing/10.png) ;}
+	60%{background-image:url(../KeyFrames/KeyframesP2/KeyframesPlayer2Standing/11.png) ;}
+	66%{background-image:url(../KeyFrames/KeyframesP2/KeyframesPlayer2Standing/12.png) ;}
+	72%{background-image:url(../KeyFrames/KeyframesP2/KeyframesPlayer2Standing/13.png) ;}
+	78%{background-image:url(../KeyFrames/KeyframesP2/KeyframesPlayer2Standing/14.png) ;}
+	84%{background-image:url(../KeyFrames/KeyframesP2/KeyframesPlayer2Standing/15.png) ;}
+	90%{background-image:url(../KeyFrames/KeyframesP2/KeyframesPlayer2Standing/16.png) ;}
+	95%{background-image:url(../KeyFrames/KeyframesP2/KeyframesPlayer2Standing/17.png) ;}
+	100%{background-image:url(../KeyFrames/KeyframesP2/KeyframesPlayer2Standing/18.png) ;}
+}
+@keyframes punchAnim2 {
+	0%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Punch/01.png);}
+	5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Punch/02.png);}
+	10%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Punch/03.png);}
+	15%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Punch/04.png);}
+	20%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Punch/05.png);}
+	25%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Punch/06.png);}
+	30%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Punch/07.png);}
+	35%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Punch/08.png);}
+	40%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Punch/09.png);}
+	45%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Punch/10.png);}
+	50%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Punch/11.png);}
+	55%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Punch/12.png);}
+	60%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Punch/13.png);}
+	65%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Punch/14.png);}
+	70%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Punch/15.png);}
+	75%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Punch/16.png);}
+	80%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Punch/17.png);}
+	85%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Punch/18.png);}
+	90%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Punch/19.png);}
+	93%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Punch/20.png);}
+	97%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Punch/21.png);}
+	100%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Punch/22.png);}
+}
+@keyframes kickAnim2 {
+	0%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/01.png);}
+	4%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/02.png);}
+	8%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/03.png);}
+	12%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/04.png);}
+	16%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/05.png);}
+	20%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/06.png);}
+	24%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/07.png);}
+	28%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/08.png);}
+	32%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/09.png);}
+	36%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/10.png);}
+	40%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/11.png);}
+	44%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/12.png);}
+	48%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/13.png);}
+	52%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/14.png);}
+	56%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/15.png);}
+	60%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/16.png);}
+	64%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/17.png);}
+	68%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/18.png);}
+	72%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/19.png);}
+	76%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/20.png);}
+	80%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/21.png);}
+	84%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/22.png);}
+	88%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/23.png);}
+	94%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/24.png);}
+	100%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Kick/25.png);}
+}
+@keyframes knifeAnim2 {
+	0%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/01.png);}
+	4%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/02.png);}
+	8%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/03.png);}
+	12%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/04.png);}
+	16%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/05.png);}
+	20%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/06.png);}
+	24%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/07.png);}
+	28%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/08.png);}
+	32%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/09.png);}
+	36%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/10.png);}
+	40%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/11.png);}
+	44%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/12.png);}
+	48%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/13.png);}
+	52%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/14.png);}
+	56%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/15.png);}
+	60%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/16.png);}
+	64%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/17.png);}
+	68%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/18.png);}
+	72%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/19.png);}
+	76%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/20.png);}
+	80%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/21.png);}
+	84%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/22.png);}
+	88%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/23.png);}
+	92%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/24.png);}
+	96%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/25.png);}
+	100%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Knife/26.png);}
+}
+@keyframes hitAnim2 {
+	0%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Hit/01.png);}
+	5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Hit/02.png);}
+	10%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Hit/03.png);}
+	15%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Hit/04.png);}
+	20%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Hit/05.png);}
+	25%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Hit/06.png);}
+	30%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Hit/07.png);}
+	35%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Hit/08.png);}
+	40%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Hit/09.png);}
+	45%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Hit/10.png);}
+	50%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Hit/11.png);}
+	55%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Hit/12.png);}
+	60%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Hit/13.png);}
+	65%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Hit/14.png);}
+	70%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Hit/15.png);}
+	76%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Hit/16.png);}
+	82%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Hit/17.png);}
+	88%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Hit/18.png);}
+	94%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Hit/19.png);}
+	100%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Hit/20.png);}
+}
+@keyframes winAnim2 {
+	0%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/01.png);}
+	2.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/02.png);}
+	5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/03.png);}
+	7.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/04.png);}
+	10%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/05.png);}
+	12.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/06.png);}
+	15%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/07.png);}
+	17.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/08.png);}
+	20%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/09.png);}
+	22.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/10.png);}
+	25%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/11.png);}
+	27.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/12.png);}
+	30%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/13.png);}
+	32.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/14.png);}
+	35%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/15.png);}
+	37.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/16.png);}
+	40%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/08.png);}
+	42.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/09.png);}
+	45%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/10.png);}
+	47.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/11.png);}
+	50%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/12.png);}
+	52.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/13.png);}
+	55%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/14.png);}
+	57.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/15.png);}
+	60%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/16.png);}
+	62.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/08.png);}
+	65%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/09.png);}
+	67.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/10.png);}
+	70%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/11.png);}
+	72.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/12.png);}
+	75%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/13.png);}
+	77.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/14.png);}
+	80%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/15.png);}
+	82.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/16.png);}
+	85%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/06.png);}
+	87.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/05.png);}
+	90%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/04.png);}
+	92.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/03.png);}
+	95%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/02.png);}
+	100%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Win/01.png);}
+}
+@keyframes dieAnim2 {
+	0%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/01.png);}
+	0.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/02.png);}
+	1%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/03.png);}
+	1.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/04.png);}
+	2%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/05.png);}
+	2.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/06.png);}
+	3%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/07.png);}
+	3.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/08.png);}
+	4%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/09.png);}
+	4.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/10.png);}
+	5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/11.png);}
+	5.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/12.png);}
+	6%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/13.png);}
+	6.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/14.png);}
+	7%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/15.png);}
+	7.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/16.png);}
+	8%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/17.png);}
+	8.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/18.png);}
+	9%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/19.png);}
+	9.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/20.png);}
+	10%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/21.png);}
+	10.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/22.png);}
+	11%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/23.png);}
+	11.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/24.png);}
+	12%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/25.png);}
+	12.5%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/26.png);}
+	100%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Die/26.png);}
+}
+@keyframes dodgeAnim2 {
+	0%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Dodge/01.png);}
+	9%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Dodge/02.png);}
+	18%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Dodge/03.png);}
+	27%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Dodge/04.png);}
+	36%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Dodge/05.png);}
+	45%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Dodge/06.png);}
+	54%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Dodge/07.png);}
+	63%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Dodge/08.png);}
+	72%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Dodge/09.png);}
+	81%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Dodge/10.png);}
+	90%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Dodge/11.png);}
+	100%{background-image: url(../KeyFrames/KeyframesP2/KeyframesPlayer2Dodge/12.png);}
+}
+@keyframes developers {
+	from{top:700px;}
+	to{top:-1400px;}
+}
+@keyframes pulsing {
+	0%{transform:scale(1.0);}
+	50%{transform:scale(1.1);filter: drop-shadow(5px 5px 30px rgba(255, 255, 255, 1));}
+	100%{transform:scale(1.0);}
+}
+@keyframes pulsingplay {
+	0%{transform:scale(1.0);}
+	50%{transform:scale(1.02);}
+	100%{transform:scale(1.0);}
+}
+
+	/* Developer Animation */
+#Developers.running{
+	animation: developers 15s linear;
+}
+#logo.pulsing{
+	animation: pulsing 3s ease-out infinite;
+}
+#play.pulsing{
+	animation: pulsingplay 1s ease-in-out infinite;
+}
+	/* Keyframes Animations */
+#khoros.standing,
+#player.standing{
+	animation:standnewAnim 1s infinite linear;
+	background-size: contain;
+	background-image: no-repeat;
+}
+#lvl1 > #player.punching{
+	animation:punchAnim 1s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 1260px;
+	height:520px;
+	position: absolute;
+	bottom: 0px;
+	left: 100px;
+}
+#lvl1 > #player.kicking{
+	animation:kickAnim 1.7s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 1330px;
+	height:650px;
+	position: absolute;
+	bottom: 20px;
+	left: 100px;
+}
+#lvl1 > #player.gothit{
+	animation: hitAnim 0.7s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 600px;
+	height:370px;
+	position: absolute;
+	bottom: 20px;
+	left: 40px;
+
+}
+#lvl1 > #player.knifing{
+	animation: knifeAnim 1.8s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 1265px;
+	height:620px;
+	position: absolute;
+	bottom: 0px;
+	left: 50px;
+}
+#lvl1 > #player.died{
+	animation: dieAnim 15s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 860px;
+	height:520px;
+	position: absolute;
+	bottom: -20px;
+	left: 60px;
+}
+#lvl1 > #player.won{
+	animation: winAnim 2s infinite linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 830px;
+	height:570px;
+	position: absolute;
+	bottom: 32px;
+	left: 70px;
+}
+#lvl1 > #player.dodged{
+	animation: dodgeAnim 0.7s infinite linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 640px;
+	height:440px;
+	position: absolute;
+	bottom: 5px;
+	left: -20px;
+}
+#lvl1 > #enemy.standing{
+	animation:enemystandAnim 1s infinite linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#lvl1 > #enemy.gothit{
+	animation:enemyhitAnim 0.7s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 670px;
+	height:370px;
+	position: absolute;
+	bottom: 0px;
+	right: -30px;
+}
+#lvl1 > #enemy.died{
+	animation:enemydieAnim 15.0s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 780px;
+	height:450px;
+	position: absolute;
+	bottom: -35px;
+	right: 25px;
+}
+#lvl1 > #enemy.punching{
+	animation:enemypunchAnim 1.5s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 1200px;
+	height:550px;
+	position: absolute;
+	bottom: 30px;
+	right: 50px;
+}
+#lvl1 > #enemy.punching2{
+	animation:enemypunch2Anim 1.2s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 1150px;
+	height:525px;
+	position: absolute;
+	bottom: -50px;
+	right: 50px;
+}
+#lvl1 > #enemy.kicking{
+	animation:enemykickAnim 2s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 1175px;
+	height:620px;
+	position: absolute;
+	bottom: 10px;
+	right: 50px;
+}
+#lvl1 > #enemy.dodged{
+	animation: enemydodgeAnim 0.7s infinite linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 680px;
+	height:470px;
+	position: absolute;
+	bottom: -15px;
+	right: -40px;
+}
+#khoros.standing2{
+	animation: standAnim2 1s infinite linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 360px !important;
+	height: 440px !important;
+	position: absolute !important;
+	top: 100px !important;
+	left: 530px !important;
+}
+#player.standing2{
+	animation: standAnim2 1s infinite linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 360px !important;
+	height: 440px !important;
+	position: absolute !important;
+	bottom: 20px !important;
+	left: 150px !important;
+}
+#lvl1 > #player.punching2{
+	animation:punchAnim2 1s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 1150px;
+	height:450px;
+	position: absolute;
+	bottom: 20px;
+	left: 125px;
+}
+#lvl1 > #player.kicking2{
+	animation:kickAnim2 1.7s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 1370px;
+	height:690px;
+	position: absolute;
+	bottom: 15px;
+	left: 70px;
+}
+#lvl1 > #player.knifing2{
+	animation: knifeAnim2 1.8s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 1265px;
+	height:650px;
+	position: absolute;
+	bottom: -10px;
+	left: 160px;
+}
+#lvl1 > #player.gothit2{
+	animation: hitAnim2 0.7s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 600px;
+	height:460px;
+	position: absolute;
+	bottom: 10px;
+	left: 120px;
+}
+#lvl1 > #player.won2{
+	animation: winAnim2 2s infinite linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 470px;
+	height:460px;
+	position: absolute;
+	bottom: 5px;
+	left: 145px;
+}
+#lvl1 > #player.died2{
+	animation: dieAnim2 20s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 860px;
+	height:520px;
+	position: absolute;
+	bottom: -20px;
+	left: -80px;
+}
+#lvl1 > #player.dodged2{
+	animation: dodgeAnim2 0.7s infinite linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 690px;
+	height:480px;
+	position: absolute;
+	bottom: 5px;
+	left: 0px;
+}

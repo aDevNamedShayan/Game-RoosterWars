@@ -1,0 +1,9 @@
+#loadGif{
+	margin:0 42px;
+	width:1500px;
+	height:750px;
+	background:url("../img/loading.gif") rgb(0, 0, 0, 0.8) no-repeat 50% 30%;
+	background-size:450px;
+	position: absolute;
+	z-index: 20000;
+}

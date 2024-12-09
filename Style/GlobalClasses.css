@@ -1,0 +1,24 @@
+body{background: black;}
+.show{ display:block; }
+.hide{ display:none; }
+.zindex{z-index:10000;}
+.greyout{filter: grayscale(100%);}
+.lvl2{background: url(../img/lvl2Bg.png) no-repeat !important;	background-size: 100% 100% !important;}
+.lvl3{background: url(../img/lvl3Bg.png) no-repeat !important;  background-size: 100% 100% !important;}
+.easy{filter: hue-rotate(90deg);}
+.avarage{filter: hue-rotate(10deg);}
+.hard{filter: hue-rotate(-25deg);}
+.diffTextStyle{	text-align: center; font-size: 25px; line-height: 50px; user-select: none; font-weight: 1000;}
+.ai{background:url(../img/Ai.png) 10px 7px/90px 90px no-repeat, url(../img/orButton.png) 0px 0px/100% 100% no-repeat !important;}
+.pvp{background:url(../img/PvpImg.png) 10px 7px/90px 90px no-repeat, url(../img/orButton.png) 0px 0px/100% 100% no-repeat !important;}
+.isLocked{
+	width:288px;
+	height:70px;
+	background: url(../img/orButton.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 35px;
+	left: 550px;
+}
+.Unmute{background: url(../img/Icons/Unmute.png) no-repeat;}
+.Mute{background: url(../img/Icons/Mute.png) no-repeat;width: 90px !important;left: 87px !important;bottom: 0 !important;}

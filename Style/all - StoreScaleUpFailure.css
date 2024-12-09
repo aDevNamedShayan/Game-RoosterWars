@@ -1,0 +1,1799 @@
+body{background: black;}
+.show{ display:block; }
+.hide{ display:none; }
+.zindex{z-index:10000;}
+.greyout{filter: grayscale(100%);}
+.lvl2{background: url(../img/lvl2Bg.png) no-repeat !important;	background-size: 100% 100% !important;}
+.lvl3{background: url(../img/lvl3Bg.png) no-repeat !important;  background-size: 100% 100% !important;}
+.easy{filter: hue-rotate(90deg);}
+.avarage{filter: hue-rotate(10deg);}
+.hard{filter: hue-rotate(-25deg);}
+.diffTextStyle{	text-align: center; font-size: 25px; line-height: 50px; user-select: none; font-weight: 1000;}
+.ai{background:url(../img/Ai.png) 10px 7px/90px 90px no-repeat, url(../img/orButton.png) 0px 0px/100% 100% no-repeat !important;}
+.pvp{background:url(../img/PvpImg.png) 10px 7px/90px 90px no-repeat, url(../img/orButton.png) 0px 0px/100% 100% no-repeat !important;}
+.isLocked{
+	width:288px;
+	height:70px;
+	background: url(../img/orButton.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 35px;
+	left: 550px;
+}
+#stage{
+    width: 1500px;
+	height:750px;
+	margin: 10px auto;
+	background: url(../img/khorosBg1.png) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+#stage > #story{
+	width: 300px;
+	height:170px;
+	background:url(../img/orButton.png) 0px 0px/100% 100% no-repeat;
+	/* background: red; */
+	position: absolute;
+	/* margin-top: 180px; */
+	transform: rotate(90deg);
+	top: 240px;
+	left: -70px;
+	transition: 0.3s;
+}
+#stage > #story::before{
+	content: '';
+	width: 150px;
+	height:150px;
+	background:url(../img/StoryPic.png) no-repeat;
+	background-size: contain;
+	/* background: red; */
+	position: absolute;
+	transform: rotate(-90deg);
+	/* margin-top: 180px; */
+	top: 0;
+	left: 90px;
+}
+#stage > #story:hover{
+	cursor: pointer;
+	width: 340px;
+	height: 200px;
+	transition: 0.3s;
+}
+#stage > #war{
+	width: 135px;
+	height:100px;
+	/* background: red; */
+	position: absolute;
+	margin-top: 300px;
+	top: 0;
+	left: 0;
+}
+#stage > #war:hover{
+	cursor: pointer;
+	
+}
+#stage > #khoros{
+	width: 830px;
+	height:390px;
+	 /* background: red;  */
+	position: absolute;
+	top: 175px;
+	left: 335px;
+}
+#stage > #khoros > span{
+	width:322px;
+	height:312px;
+	/* background: red; */
+	position:absolute;
+	top:50px;
+	left:85px;
+}
+#stage > #shop{
+	width: 120px;
+	height: 100px;
+	position:absolute;
+	bottom:35px;
+	right:60px;
+}
+#stage > #shop:hover{
+	cursor: pointer;
+}
+#stage > #shopPage{
+	width: 1500px;
+	height:750px;
+	margin: 10px auto;
+	background: url(../img/store1.png) no-repeat; 
+	background-size: 100% 100%;
+}
+#stage > #shopPage > #backShop{
+	width:80px;
+	height:50px;
+	position:absolute;
+	/* background: red; */
+	top:25px;
+	left:5px; 
+}
+#stage > #shopPage > #backShop:hover{
+	cursor: pointer;
+}
+#stage > #setting{
+	width: 60px;
+	height: 60px;
+	position:absolute;
+	bottom:15px;
+	left: 20px;
+	/* background: red; */
+}
+#stage > #setting:hover{
+	cursor: pointer;
+}
+#stage > #setPage1{
+	width:1000px;
+	height:600px;
+	position:absolute;
+	bottom:80px;
+	left:330px;
+	background:url(../img/setPage1.png) no-repeat;
+	background-size: contain;
+}
+#stage > #setPage1 > #backSetPage1{
+	width:50px;
+	height:50px;
+	position:absolute;
+	right:150px;
+	top:75px;
+	cursor:pointer;
+}
+#stage > #left1{
+	width:200px;
+	height:200px;
+	position:absolute;
+	bottom:260px;
+	left:170px;
+	background: url(../img/left1.png) no-repeat;
+	background-size: contain;
+	cursor: pointer;
+}
+#stage > #right1{
+	width:200px;
+	height:200px;
+	position:absolute;
+	bottom:260px;
+	right:145px;
+	background: url(../img/right1.png) no-repeat;
+	background-size: contain;
+	cursor: pointer;
+}
+#stage > #setPage2{
+	width:1000px;
+	height:600px;
+	position:absolute;
+	bottom:80px;
+	left:330px;
+	background:url(../img/setPage2.png) no-repeat;
+	background-size: contain;
+}
+#stage > #setPage2 > #backSetPage2{
+	width:50px;
+	height:50px;
+	position:absolute;
+	right:150px;
+	top:75px;
+	cursor:pointer;
+}
+#stage > #left2{
+	width:200px;
+	height:200px;
+	position:absolute;
+	bottom:260px;
+	left:170px;
+	background: url(../img/left2.png) no-repeat;
+	background-size: contain;
+	cursor: pointer;
+}
+#stage > #right2{
+	width:200px;
+	height:200px;
+	position:absolute;
+	bottom:260px;
+	right:145px;
+	background: url(../img/right2.png) no-repeat;
+	background-size: contain;
+	cursor: pointer;
+}
+#stage > #setPage3{
+	width:1000px;
+	height: 600px;
+	position:absolute;
+	bottom:80px;
+	left:330px;
+	background:url(../img/setPage3.png) no-repeat;
+	background-size: contain;
+}
+#stage > #setPage3 > #backSetPage3{
+	width:50px;
+	height:50px;
+	position:absolute;
+	right:150px;
+	top:75px;
+	cursor:pointer;
+}
+#stage > #left3{
+	width:200px;
+	height: 200px;
+	position:absolute;
+	bottom:260px;
+	left:170px;
+	background: url(../img/left3.png) no-repeat;
+	background-size: contain;
+	cursor: pointer;
+}
+#stage > #right3{
+	width:200px;
+	height:200px;
+	position:absolute;
+	bottom:260px;
+	right:145px;
+	background: url(../img/right3.png) no-repeat;
+	background-size: contain;
+	cursor: pointer;
+}
+
+#stage > #leave{
+	width:500px;
+	height: 200px;
+	position: absolute;
+	background: url(../img/leave.jpg) no-repeat;
+	background-size: contain;
+	top: 290px;
+	left:515px;
+}
+#stage > #leave > #No{
+	width:90px;
+	height:50px;
+	/* background: red; */
+	position:absolute;
+	top:115px;
+	left:110px;
+
+}
+#stage > #leave > #No:hover{
+	cursor: pointer;
+}
+#stage > #leave > #Yes{
+	width:90px;
+	height:50px;
+	/* background: green; */
+	position:absolute;
+	top:115px;
+	right:110px;
+
+}
+#stage > #leave > #Yes:hover{
+	cursor: pointer;
+}
+#yourEgg{
+	width: 175px;
+	height: 88px;
+	background: url(../img/EggValue.png) no-repeat;
+	background-size: contain;
+	position:absolute;
+	right: 150px;
+	/* background: red; */
+	z-index: 50;
+}
+#yourEgg > h1{
+	text-align: center; 
+	font-size: 25px; 
+	line-height: 50px; 
+	user-select: none; 
+	font-weight: 1000;
+	position: absolute;
+	right: 115px;
+	color: whitesmoke;
+}
+#stage > #shopPage > #store2{
+	width:420px;
+	height:280px;
+	position:absolute;
+	background:url(../img/store2.jpg);
+	background-size: 100% 100%;
+	top:150px;
+	left:125px;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+#stage > #shopPage > #store2:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: 0.3s;
+	/* width:450px;
+	height:300px;
+	top: calc(150px - 10px);
+	left: calc(125px - 15px); */
+}
+#stage > #shopPage > #store2:hover > #items2{
+	transform: scale(0.909);
+}
+#stage > #shopPage > #store3{
+	width:420px;
+	height:280px;
+	position:absolute;
+	background:url(../img/store3.jpg);
+	background-size: 100% 100%;
+	top:150px;
+	left:570px;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+#stage > #shopPage > #store3:hover{
+	cursor: pointer;
+	width:450px;
+	height:300px;
+	/* transform: scale(1.1); */
+	transition: 0.3s;
+	top: calc(150px - 10px);
+	left: calc(570px - 15px);
+}
+#stage > #shopPage > #store4{
+	width:420px;
+	height:280px;
+	position:absolute;
+	background:url(../img/store4.jpg);
+	background-size: 100% 100%;
+	top:150px;
+	right:70px;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+#stage > #shopPage > #store4:hover{
+	cursor: pointer;
+	width:450px;
+	height:300px;
+	/* transform: scale(1.1); */
+	transition: 0.3s;
+	top: calc(150px - 10px);
+	right: calc(70px - 15px);
+}
+#stage > #shopPage > #store5{
+	width:420px;
+	height:280px;
+	position:absolute;
+	background:url(../img/store5.jpg);
+	background-size: 100% 100%;
+	bottom:17px;
+	left:125px;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+#stage > #shopPage > #store5:hover{
+	cursor: pointer;
+	width:450px;
+	height:300px;
+	/* transform: scale(1.1); */
+	transition: 0.3s;
+	bottom: calc(17px - 10px);
+	left: calc(125px - 15px);
+}
+#stage > #shopPage > #store6{
+	width:420px;
+	height:280px;
+	position:absolute;
+	background:url(../img/store6.jpg);
+	background-size: 100% 100%;
+	bottom:17px;
+	left:570px;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+#stage > #shopPage > #store6:hover{
+	cursor: pointer;
+	width:450px;
+	height:300px;
+	/* transform: scale(1.1); */
+	transition: 0.3s;
+	bottom: calc(17px - 10px);
+	left: calc(570px - 15px);
+}
+#stage > #shopPage > #store7{
+	width:420px;
+	height:280px;
+	position:absolute;
+	background:url(../img/store7.jpg);
+	background-size: 100% 100%;
+	bottom:17px;
+	right:70px;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+#stage > #shopPage > #store7:hover{
+	cursor: pointer;
+	width:450px;
+	height:300px;
+	/* transform: scale(1.1); */
+	transition: 0.3s;
+	bottom: calc(17px - 10px);
+	right: calc(70px - 15px);
+}
+#stage > #shopPage > #store2 > #items2{
+	width: 1500px;
+	height:750px;
+	top: -150px;
+	left:-121px;
+	position: absolute;
+	background: url(../img/items2.png) no-repeat; 
+	background-size:100% 100%;
+	z-index:2000;
+}
+#stage > #shopPage > #store3 > #items3{
+	width: 1500px;
+	height:750px;
+	top: -150px;
+	left:-566px;
+	position: absolute;
+	background: url(../img/items3.png) no-repeat; 
+	background-size:100% 100%;
+	z-index:2000;
+}
+#stage > #shopPage > #store4 > #items4{
+	width: 1500px;
+	height:750px;
+	top: -150px;
+	right:-72px;
+	position: absolute;
+	background: url(../img/items4.png) no-repeat; 
+	background-size:100% 100%;
+	z-index:2000;
+}
+#stage > #shopPage > #store5 > #items5{
+	width: 1500px;
+	height:750px;
+	bottom:-16px;
+	left:-122px;
+	position: absolute;
+	background: url(../img/items5.png) no-repeat; 
+	background-size:100% 100%;
+	z-index:2000;
+}
+#stage > #shopPage > #store7 > #items7{
+	width: 1500px;
+	height:750px;
+	top: -454px;
+	right:-72px;
+	position: absolute;
+	background: url(../img/items7.png) no-repeat; 
+	background-size:100% 100%;
+	z-index:2000;
+}
+#stage > #shopPage > #store2 > #items2 > #Items2P1{
+	width:400px;
+	height:432px;
+	position:absolute;
+	top:272px;
+	left:122px;
+	background:url(../img/items2P1.jpg);
+	background-size: 100% 100%;
+	border-radius:20px;
+}
+#stage > #shopPage > #store2 > #items2 > #Items2P1:hover{
+	width:410px;
+	height:442px;
+	cursor:pointer;
+	transition: 0.5s;
+}
+#stage > #shopPage > #store2 > #items2 > #Items2P2{
+	width:423px;
+	height:453px;
+	position:absolute;
+	top:261px;
+	left:556px;
+	background:url(../img/items2P2.jpg);
+	background-size: 100% 100%;
+	border-radius:30px;
+}
+#stage > #shopPage > #store2 > #items2 > #Items2P2:hover{
+	width:433px;
+	height:463px;
+	cursor:pointer;
+	transition: 0.5s;
+}
+#stage > #shopPage > #store2 > #items2 > #Items2P3{
+	width:423px;
+	height:453px;
+	position:absolute;
+	top:261px;
+	right:76px;
+	background:url(../img/items2P3.jpg);
+	background-size: 100% 100%;
+	border-radius:30px;
+}
+#stage > #shopPage > #store2 > #items2 > #Items2P3:hover{
+	width:433px;
+	height:463px;
+	cursor:pointer;
+	transition: 0.5s;
+}
+#stage > #shopPage > #store3 > #items3 > #Items3P1{
+	width:400px;
+	height:432px;
+	position:absolute;
+	top:272px;
+	left:122px;
+	background:url(../img/items3P1.jpg);
+	background-size: 100% 100%;
+	border-radius:20px;
+}
+#stage > #shopPage > #store3 > #items3 > #Items3P1:hover{
+	width:410px;
+	height:442px;
+	cursor:pointer;
+	transition: 0.5s;
+}
+#stage > #shopPage > #store3 > #items3 > #Items3P2{
+	width:423px;
+	height:453px;
+	position:absolute;
+	top:261px;
+	left:556px;
+	background:url(../img/items3P2.jpg);
+	background-size: 100% 100%;
+	border-radius:30px;
+}
+#stage > #shopPage > #store3 > #items3 > #Items3P2:hover{
+	width:433px;
+	height:463px;
+	cursor:pointer;
+	transition: 0.5s;
+}
+#stage > #shopPage > #store3 > #items3 > #Items3P3{
+	width:423px;
+	height:453px;
+	position:absolute;
+	top:261px;
+	right:76px;
+	background:url(../img/items3P3.jpg);
+	background-size: 100% 100%;
+	border-radius:30px;
+}
+#stage > #shopPage > #store3 > #items3 > #Items3P3:hover{
+	width:433px;
+	height:463px;
+	cursor:pointer;
+	transition: 0.5s;
+}
+#stage > #shopPage > #store4 > #items4 > #Items4P1{
+	width:400px;
+	height:432px;
+	position:absolute;
+	top:272px;
+	left:122px;
+	background:url(../img/items4P1.jpg);
+	background-size: 100% 100%;
+	border-radius:20px;
+}
+#stage > #shopPage > #store4 > #items4 > #Items4P1:hover{
+	width:410px;
+	height:442px;
+	cursor:pointer;
+	transition: 0.5s;
+}
+#stage > #shopPage > #store4 > #items4 > #Items4P2{
+	width:423px;
+	height:453px;
+	position:absolute;
+	top:261px;
+	left:556px;
+	background:url(../img/items4P2.jpg);
+	background-size: 100% 100%;
+	border-radius:30px;
+}
+#stage > #shopPage > #store4 > #items4 > #Items4P2:hover{
+	width:433px;
+	height:463px;
+	cursor:pointer;
+	transition: 0.5s;
+}
+#stage > #shopPage > #store4 > #items4 > #Items4P3{
+	width:423px;
+	height:453px;
+	position:absolute;
+	top:261px;
+	right:76px;
+	background:url(../img/items4P3.jpg);
+	background-size: 100% 100%;
+	border-radius:30px;
+}
+#stage > #shopPage > #store4 > #items4 > #Items4P3:hover{
+	width:433px;
+	height:463px;
+	cursor:pointer;
+	transition: 0.5s;
+}
+#stage > #shopPage > #store5 > #items5 > #Items5P1{
+	width:400px;
+	height:432px;
+	position:absolute;
+	top:272px;
+	left:122px;
+	background:url(../img/items5P1.jpg);
+	background-size: 100% 100%;
+	border-radius:20px;
+}
+#stage > #shopPage > #store5 > #items5 > #Items5P1:hover{
+	width:410px;
+	height:442px;
+	cursor:pointer;
+	transition: 0.5s;
+}
+#stage > #shopPage > #store5 > #items5 > #Items5P2{
+	width:423px;
+	height:453px;
+	position:absolute;
+	top:258px;
+	left:556px;
+	background:url(../img/items5P2.jpg);
+	background-size: 100% 100%;
+	border-radius:30px;
+}
+#stage > #shopPage > #store5 > #items5 > #Items5P2:hover{
+	width:433px;
+	height:463px;
+	cursor:pointer;
+	transition: 0.5s;
+}
+#stage > #shopPage > #store5 > #items5 > #Items5P3{
+	width:423px;
+	height:453px;
+	position:absolute;
+	top:258px;
+	right:76px;
+	background:url(../img/items5P3.jpg);
+	background-size: 100% 100%;
+	border-radius:30px;
+}
+#stage > #shopPage > #store5 > #items5 > #Items5P3:hover{
+	width:433px;
+	height:463px;
+	cursor:pointer;
+	transition: 0.5s;
+}
+#stage > #shopPage > #store7 > #items7 > #Items7P1{
+	width:425px;
+	height:457px;
+	position:absolute;
+	top:169px;
+	left:108px;
+	background:url(../img/items7P1.jpg);
+	background-size: 100% 100%;
+}
+#stage > #shopPage > #store7 > #items7 > #Items7P1:hover{
+	width:435px;
+	height:467px;
+	cursor:pointer;
+	transition: 0.5s;
+}
+.backItems{
+	width:80px;
+	height:50px;
+	top:25px;
+	left:5px;
+	position: absolute;
+	/* background: red; */
+}
+#stage > #sekeh{
+	width:44px;
+	height:39px;
+	top:30px;
+	right:264px;
+	/* background: red; */
+	position:absolute;
+	cursor:pointer;
+}
+#stage > #gem{
+	width:44px;
+	height:39px;
+	top:30px;
+	right:550px;
+	/* background: red; */
+	position:absolute;
+	cursor:pointer;
+}
+#stageLvl {
+    width: 1500px;
+	height:750px;
+	margin: 10px auto;
+	background: url(../img/StoryBgN.png) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+#stageLvl > #difficulty{
+	width: 600px;
+	height: 500px;
+	margin: auto;
+	background: url(../img/diffBg.png);
+	background-size: 100% 100%;
+	z-index: 10;
+	/* backdrop-filter: blur(10px); */
+	position: absolute;
+	top:150px;
+	left:450px;
+}
+#stageLvl > #difficulty > #easy{
+	width: 550px;
+	height: 150px;
+	/* background: red; */
+	background: url(../img/orButton.png) no-repeat;
+	background-size: contain;
+	filter: hue-rotate(90deg);
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	cursor: pointer;
+}
+#stageLvl > #difficulty > #easy > h2{
+	text-align: center;
+	font-size: 50px;
+	line-height: 30px;
+	user-select: none;
+}
+#stageLvl > #difficulty > #easy > div{display: none;}
+#stageLvl > #difficulty > #easy:hover > div{
+	display: block;
+	width:288px;
+	height:102px;
+	background: url(../img/orButton.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 20px;
+	left: 550px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 30px;
+}
+#stageLvl > #difficulty > #avarage{
+	width: 550px;
+	height: 150px;
+	/* background: red; */
+	background: url(../img/orButton.png) no-repeat;
+	background-size: contain;
+	filter: hue-rotate(10deg);
+	position: absolute;
+	top: 180px;
+	left: 25px;
+	cursor: pointer;
+}
+#stageLvl > #difficulty > #avarage > h2{
+	text-align: center;
+	font-size: 50px;
+	line-height: 30px;
+	user-select: none;
+}
+#stageLvl > #difficulty > #avarage > div{display: none;}
+#stageLvl > #difficulty > #avarage:hover > div{
+	display: block;
+	width:288px;
+	height:102px;
+	background: url(../img/orButton.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 20px;
+	left: 550px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 30px;
+}
+#stageLvl > #difficulty > #hard{
+	width: 550px;
+	height: 150px;
+	/* background: red; */
+	background: url(../img/orButton.png) no-repeat;
+	background-size: contain;
+	filter: hue-rotate(-25deg);
+	position: absolute;
+	top: 335px;
+	left: 25px;
+	cursor: pointer;
+}
+#stageLvl > #difficulty > #hard > h2{
+	text-align: center;
+	font-size: 50px;
+	line-height: 30px;
+	user-select: none;
+}
+#stageLvl > #difficulty > #hard > div{display: none;}
+#stageLvl > #difficulty > #hard:hover > div{
+	display: block;
+	width:288px;
+	height:102px;
+	background: url(../img/orButton.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 20px;
+	left: 550px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 30px;
+}
+#stageLvl  > #diffButton{
+	width: 240px;
+	height: 65px;
+	/* background: red; */
+	background: url(../img/orButton.png) no-repeat;
+	background-size: contain;
+	/* filter: hue-rotate(-25deg); */
+	position: absolute;
+	top: 104px;
+	right: 65px;
+	z-index: 20;
+}
+#stageLvl > #back{
+	width: 80px;
+	height: 50px;
+	/* background: red; */
+	position: absolute;
+	top: 25px;
+	left: 0;
+}
+#stageLvl > #level1{
+	width: 350px;
+	height: 450px;
+	/* background: red; */
+	position: absolute;
+	bottom: 50px;
+	right: 160px;
+	cursor: pointer;
+}
+#stageLvl > #level2{
+	width: 390px;
+	height: 280px;
+	/* background: red; */
+	position: absolute;
+	bottom: 300px;
+	left: 595px;
+	cursor: pointer;
+}
+#stageLvl > #level3{
+	width: 410px;
+	height: 410px;
+	/* background: red; */
+	position: absolute;
+	bottom: 30px;
+	left: 180px;
+	cursor: pointer;
+}
+#stageLvl > #locklvl2{
+	width: 170px;
+	height: 170px;
+	background: url(../img/LvlLock.png) no-repeat;
+	background-size: contain;
+	z-index: 5;
+	position: absolute;
+	top: 210px;
+	left: 690px;
+	/* font-size: 38px;
+	font-weight: bold;
+	line-height: 380px; */
+}
+#stageLvl > #locklvl2 > div{display: none;}
+#stageLvl > #locklvl2:hover > div{
+	display: block;
+	width:130px;
+	height:75px;
+	background: url(../img/orButton.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 170px;
+	left: 5px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 30px;
+}
+#stageLvl > #locklvl3{
+	width: 170px;
+	height: 170px;
+	background: url(../img/LvlLock.png) no-repeat;
+	background-size: contain;
+	z-index: 5;
+	/* backdrop-filter: blur(10px); */
+	position: absolute;
+	top:450px;
+	left:370px;
+	/* font-size: 38px;
+	font-weight: bold;
+	line-height: 380px; */
+}
+#stageLvl > #locklvl3 > div{display: none;}
+#stageLvl > #locklvl3:hover > div{
+	display: block;
+	width:130px;
+	height:75px;
+	background: url(../img/orButton.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 170px;
+	left: 5px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 30px;
+}
+#stageLvl > #selectMode{
+	width: 900px;
+	height: 500px;
+	margin: auto;
+	background: url(../img/diffBg.png);
+	background-size: 100% 100%;
+	z-index: 10;
+	/* backdrop-filter: blur(10px); */
+	position: absolute;
+	top:175px;
+	left:300px;
+}
+#stageLvl > #selectMode > #ai{
+	width: 410px;
+	height: 410px;
+	background:url(../img/Ai.png) 30px 15px/350px 350px no-repeat, url(../img/orButton.png) 0px 0px/100% 100% no-repeat;
+	position: absolute;
+	top: 45px;
+	left: 25px;
+	cursor: pointer;
+}
+#stageLvl > #selectMode > #ai > div{display: none;}
+#stageLvl > #selectMode > #ai:hover > div{
+	display: block;
+	width: 225px;
+	height: 60px;
+	background:url(../img/orButton.png) 0px 0px/100% 100% no-repeat;
+	position: absolute;
+	top: 150px;
+	left: -225px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 45px;
+}
+#stageLvl > #selectMode > #pvp{
+	width: 410px;
+	height: 410px;
+	background:url(../img/PvpImg.png) 30px 15px/350px 350px no-repeat, url(../img/orButton.png) 0px 0px/100% 100% no-repeat;
+	position: absolute;
+	top: 45px;
+	left: 460px;
+	cursor: pointer;
+}
+#stageLvl > #selectMode > #pvp > div{display: none;}
+#stageLvl > #selectMode > #pvp:hover > div{
+	display: block;
+	width: 300px;
+	height: 125px;
+	background:url(../img/orButton.png) 0px 0px/100% 100% no-repeat;
+	position: absolute;
+	top: 130px;
+	right: -300px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 36px;
+}
+#stageLvl  > #modeButton{
+	width: 110px;
+	height: 110px;
+	/* background: red; */
+	background: url(../img/orButton.png) no-repeat;
+	background-size: 100% 100%;
+	/* filter: hue-rotate(-25deg); */
+	position: absolute;
+	top: 180px;
+	right: 65px;
+	z-index: 20;
+}
+#lvl1{
+	width: 1500px;
+	height:750px;
+	margin: 10px auto;
+	background: url(../img/lvl1Bg.png) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	overflow: hidden;
+}
+#lvl1 > #fightBtn{
+	background: url(../img/fightoption.png) no-repeat;
+	width: 800px;
+	height:220px;
+	margin: 10px auto;
+	background-size: 100% 100%;
+	position: absolute;
+	left:350px;
+	bottom:0px;
+	z-index: 1000;
+}
+#lvl1 > #fightBtn > #fist{
+	background: url(../img/fist.png) no-repeat;
+	width: 203px;
+	height:177px;
+	margin: 10px auto;
+	background-size: 100% 100%;
+	position: absolute;
+	left:132px;
+	bottom:28px;
+	z-index: 1100;
+}
+#lvl1 > #fightBtn > #fist > #leftarrow{
+	background: url(../img/Icons/LeftArrow.png) no-repeat 20% 0%;
+	width: 50px;
+	height:50px;
+	/* margin: 10px auto; */
+	background-size: contain;
+	position: absolute;
+	left:80px;
+	bottom:-44px;
+	z-index: 1100;
+}
+#lvl1 > #fightBtn > #leg{
+	background: url(../img/kick.png) no-repeat 20% 0%;
+	width: 130px;
+	height:130px;
+	/* margin: 10px auto; */
+	background-size: 150px;
+	position: absolute;
+	left:340px;
+	bottom:70px;
+	z-index: 1100;
+}
+#lvl1 > #fightBtn > #leg > #downarrow{
+	background: url(../img/Icons/DownArrow.png) no-repeat 20% 0%;
+	width: 50px;
+	height:50px;
+	/* margin: 10px auto; */
+	background-size: contain;
+	position: absolute;
+	left:40px;
+	bottom:-77px;
+	z-index: 1100;
+}
+#lvl1 > #fightBtn > #knife{
+	background: url(../img/knife.png) no-repeat 20% 0%;
+	width: 130px;
+	height:130px;
+	/* margin: 10px auto; */
+	background-size: 150px;
+	position: absolute;
+	right:160px;
+	bottom:65px;
+	z-index: 1100;
+}
+#lvl1 > #fightBtn > #knife > #rightarrow{
+	background: url(../img/Icons/RightArrow.png) no-repeat 20% 0%;
+	width: 50px;
+	height:50px;
+	/* margin: 10px auto; */
+	background-size: contain;
+	position: absolute;
+	left:40px;
+	bottom:-71px;
+	z-index: 1100;
+}
+#lvl1  > #player{
+	width: 830px;
+	height:390px;
+	 /* background: red;  */
+	position: absolute;
+	bottom: 10px;
+	left: -100px;
+}
+#lvl1  > #enemy{
+	width: 575px;
+	height:340px;
+	 /* background: red;  */
+	position: absolute;
+	bottom: 10px;
+	right: 80px;
+}
+#lvl1  > .enhealthContainer{
+	width: 550px;
+    background-color: #d7d7d7;
+    border: 10px solid #707070;
+    border-radius: 30px;
+    overflow: hidden;
+    /* position: relative; */
+    height: 30px;
+	position:absolute;
+    top:4%;
+    right:4.5%;
+    /* background-color: #ff0000; */
+} 
+#lvl1  >  .enhealthContainer  >  #enhealthBar{
+	height: 100%;
+    width: 100%;
+	background-color: #e3cd00;
+    transition: width 0.3s;
+	/* border:1px solid red; */
+    /* width:0%;
+    height:100%; */
+    /* position:absolute;
+    top:5%;
+    right:5%; */
+    /* text-shadow:0 0 2px #aaa;  */
+	/* background-color: #0d00ff;
+    border-radius: 25px 0 0 25px;
+    transition: width 0.3s; */
+}
+#lvl1  >  .enhealthContainer  >  #enhealthText{
+	position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 12%;
+    /* transform: translateY(-50%); */
+    font-weight: bold;
+    color: #000;
+	user-select: none;
+}
+#lvl1  > .healthContainer{
+	width: 550px;
+    background-color: #d7d7d7;
+    border: 10px solid #707070;
+    border-radius: 30px;
+    overflow: hidden;
+    /* position: relative; */
+    height: 30px;
+	position:absolute;
+    top:4%;
+    left:4.5%;
+    /* background-color: #ff0000; */
+	direction: rtl;
+} 
+#lvl1  >  .healthContainer  >  #healthBar{
+	height: 100%;
+    width: 100%;
+	background-color: #e3cd00;
+    transition: width 0.3s;
+}
+#lvl1  >  .healthContainer  >  #healthText{
+	position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 12%;
+    /* transform: translateY(-50%); */
+    font-weight: bold;
+    color: #000;
+	user-select: none;
+}
+#lvl1 > #winpage{
+	background: url(../img/Win.png);
+	background-size: contain;
+	width:101%;
+	height:95%;
+	position: fixed;
+	/* z-index: 1500; */
+	backdrop-filter: 1;
+}
+#lvl1 > #losepage{
+	background: url(../img/Lose.png);
+	background-size: contain;
+	width:101%;
+	height:95%;
+	position: fixed;
+	/* z-index: 3000000; */
+	backdrop-filter: 1;
+}
+#lvl1Pvp{
+	width: 1500px;
+	height:750px;
+	margin: 10px auto;
+	background: url(../img/lvl1Bg.png) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	overflow: hidden;
+}
+#lvl1Pvp > #fightBtnPvp{
+	background: url(../img/fightoption.png) no-repeat;
+	width: 800px;
+	height:220px;
+	margin: 10px auto;
+	background-size: 100% 100%;
+	position: absolute;
+	left:350px;
+	bottom:0px;
+	z-index: 1000;
+}
+#lvl1Pvp > #fightBtnPvp > #fistPvp{
+	background: url(../img/fist.png) no-repeat;
+	width: 203px;
+	height:177px;
+	margin: 10px auto;
+	background-size: 100% 100%;
+	position: absolute;
+	left:132px;
+	bottom:28px;
+	z-index: 1100;
+}
+#lvl1Pvp > #fightBtnPvp > #legPvp{
+	background: url(../img/kick.png) no-repeat 20% 0%;
+	width: 130px;
+	height:130px;
+	/* margin: 10px auto; */
+	background-size: 150px;
+	position: absolute;
+	left:340px;
+	bottom:70px;
+	z-index: 1100;
+}
+#lvl1Pvp > #fightBtnPvp > #knifePvp{
+	background: url(../img/knife.png) no-repeat 20% 0%;
+	width: 130px;
+	height:130px;
+	/* margin: 10px auto; */
+	background-size: 150px;
+	position: absolute;
+	right:160px;
+	bottom:65px;
+	z-index: 1100;
+}
+#lvl1Pvp  > #playerPvp{
+	width: 830px;
+	height:390px;
+	 /* background: red;  */
+	position: absolute;
+	bottom: 10px;
+	left: -100px;
+}
+#lvl1Pvp  > #enemyPvp{
+	width: 575px;
+	height:340px;
+	 /* background: red;  */
+	position: absolute;
+	bottom: 10px;
+	right: 80px;
+}
+#lvl1Pvp  > .enhealthContainer{
+	width: 550px;
+    background-color: #d7d7d7;
+    border: 10px solid #707070;
+    border-radius: 30px;
+    overflow: hidden;
+    /* position: relative; */
+    height: 30px;
+	position:absolute;
+    top:4%;
+    right:4.5%;
+    /* background-color: #ff0000; */
+} 
+#lvl1Pvp  >  .enhealthContainer  >  #enhealthBarPvp{
+	height: 100%;
+    width: 100%;
+	background-color: #e3cd00;
+    transition: width 0.3s;
+	/* border:1px solid red; */
+    /* width:0%;
+    height:100%; */
+    /* position:absolute;
+    top:5%;
+    right:5%; */
+    /* text-shadow:0 0 2px #aaa;  */
+	/* background-color: #0d00ff;
+    border-radius: 25px 0 0 25px;
+    transition: width 0.3s; */
+}
+#lvl1Pvp  >  .enhealthContainer  >  #enhealthTextPvp{
+	position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 12%;
+    /* transform: translateY(-50%); */
+    font-weight: bold;
+    color: #000;
+	user-select: none;
+}
+#lvl1Pvp  > .healthContainer{
+	width: 550px;
+    background-color: #d7d7d7;
+    border: 10px solid #707070;
+    border-radius: 30px;
+    overflow: hidden;
+    /* position: relative; */
+    height: 30px;
+	position:absolute;
+    top:4%;
+    left:4.5%;
+    /* background-color: #ff0000; */
+	direction: rtl;
+} 
+#lvl1Pvp  >  .healthContainer  >  #healthBarPvp{
+	height: 100%;
+    width: 100%;
+	background-color: #e3cd00;
+    transition: width 0.3s;
+}
+#lvl1Pvp  >  .healthContainer  >  #healthTextPvp{
+	position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 12%;
+    /* transform: translateY(-50%); */
+    font-weight: bold;
+    color: #000;
+	user-select: none;
+}
+#lvl1Pvp > #winpagePvp{
+	background: url(../img/Win.png);
+	background-size: contain;
+	width:101%;
+	height:95%;
+	position: fixed;
+	/* z-index: 1500; */
+	backdrop-filter: 1;
+}
+#lvl1Pvp > #losepagePvp{
+	background: url(../img/Lose.png);
+	background-size: contain;
+	width:101%;
+	height:95%;
+	position: fixed;
+	/* z-index: 3000000; */
+	backdrop-filter: 1;
+}
+#loadGif{
+	margin:0 42px;
+	width:1500px;
+	height:750px;
+	background:url("../img/loading.gif") rgb(0, 0, 0, 0.8) no-repeat 50% 30%;
+	background-size:450px;
+	position: absolute;
+	z-index: 20000;
+}
+
+/* koros keyFrames */
+@keyframes standAnim{
+	/* 0%{background-image: url("../keyFramesStand/01\ stand.png");}                 OUT OF USE!!! */
+	0%{background-image: url("../keyFramesStand/02\ stand.png");}
+	14%{background-image: url("../keyFramesStand/03\ stand.png");}
+	21%{background-image: url("../keyFramesStand/04\ stand.png");}
+	28%{background-image: url("../keyFramesStand/05\ stand.png");}
+	35%{background-image: url("../keyFramesStand/06\ stand.png");}
+	42%{background-image: url("../keyFramesStand/07\ stand.png");}
+	49%{background-image: url("../keyFramesStand/08\ stand.png");}
+	56%{background-image: url("../keyFramesStand/09\ stand.png");}
+	63%{background-image: url("../keyFramesStand/10\ stand.png");}
+	70%{background-image: url("../keyFramesStand/11\ stand.png");}
+	77%{background-image: url("../keyFramesStand/12\ stand.png");}
+	90%{background-image: url("../keyFramesStand/13\ stand.png");}
+	100%{background-image: url("../keyFramesStand/14\ stand.png");}
+	/* 100%{background-image: url("../keyFramesStand/15\ stand.png");}               OUT OF USE!!! */
+}
+@keyframes standnewAnim{
+	0%{background-image: url(../KeyframesStandNEWNOBG/01.png)}
+	3%{background-image: url(../KeyframesStandNEWNOBG/02.png)}
+	6%{background-image: url(../KeyframesStandNEWNOBG/03.png)}
+	9%{background-image: url(../KeyframesStandNEWNOBG/04.png)}
+	12%{background-image: url(../KeyframesStandNEWNOBG/05.png)}
+	15%{background-image: url(../KeyframesStandNEWNOBG/06.png)}
+	18%{background-image: url(../KeyframesStandNEWNOBG/07.png)}
+	21%{background-image: url(../KeyframesStandNEWNOBG/08.png)}
+	24%{background-image: url(../KeyframesStandNEWNOBG/09.png)}
+	27%{background-image: url(../KeyframesStandNEWNOBG/10.png)}
+	30%{background-image: url(../KeyframesStandNEWNOBG/11.png)}
+	33%{background-image: url(../KeyframesStandNEWNOBG/12.png)}
+	36%{background-image: url(../KeyframesStandNEWNOBG/13.png)}
+	39%{background-image: url(../KeyframesStandNEWNOBG/14.png)}
+	42%{background-image: url(../KeyframesStandNEWNOBG/15.png)}
+	45%{background-image: url(../KeyframesStandNEWNOBG/16.png)}
+	48%{background-image: url(../KeyframesStandNEWNOBG/17.png)}
+	51%{background-image: url(../KeyframesStandNEWNOBG/18.png)}
+	54%{background-image: url(../KeyframesStandNEWNOBG/19.png)}
+	57%{background-image: url(../KeyframesStandNEWNOBG/20.png)}
+	60%{background-image: url(../KeyframesStandNEWNOBG/21.png)}
+	63%{background-image: url(../KeyframesStandNEWNOBG/22.png)}
+	66%{background-image: url(../KeyframesStandNEWNOBG/23.png)}
+	69%{background-image: url(../KeyframesStandNEWNOBG/24.png)}
+	72%{background-image: url(../KeyframesStandNEWNOBG/25.png)}
+	75%{background-image: url(../KeyframesStandNEWNOBG/26.png)}
+	78%{background-image: url(../KeyframesStandNEWNOBG/27.png)}
+	81%{background-image: url(../KeyframesStandNEWNOBG/28.png)}
+	84%{background-image: url(../KeyframesStandNEWNOBG/29.png)}
+	87%{background-image: url(../KeyframesStandNEWNOBG/30.png)}
+	90%{background-image: url(../KeyframesStandNEWNOBG/31.png)}
+	100%{background-image: url(../KeyframesStandNEWNOBG/32.png)}
+}
+@keyframes punchAnim{
+	0%{background-image: url(../KeyframesPunch/01.png)}
+	7%{background-image: url(../KeyframesPunch/02.png)}
+	14%{background-image: url(../KeyframesPunch/03.png)}
+	21%{background-image: url(../KeyframesPunch/04.png)}
+	28%{background-image: url(../KeyframesPunch/05.png)}
+	35%{background-image: url(../KeyframesPunch/06.png)}
+	42%{background-image: url(../KeyframesPunch/07.png)}
+	49%{background-image: url(../KeyframesPunch/08.png)}
+	56%{background-image: url(../KeyframesPunch/09.png)}
+	63%{background-image: url(../KeyframesPunch/10.png)}
+	70%{background-image: url(../KeyframesPunch/11.png)}
+	77%{background-image: url(../KeyframesPunch/12.png)}
+	89%{background-image: url(../KeyframesPunch/13.png)}
+	100%{background-image: url(../KeyframesPunch/14.png)}
+}
+@keyframes kickAnim{
+	0%{background-image: url(../KeyframesKick/01.png);}
+	7%{background-image: url(../KeyframesKick/02.png);}
+	14%{background-image: url(../KeyframesKick/03.png);}
+	21%{background-image: url(../KeyframesKick/04.png);}
+	28%{background-image: url(../KeyframesKick/05.png);}
+	35%{background-image: url(../KeyframesKick/06.png);}
+	42%{background-image: url(../KeyframesKick/07.png);}
+	49%{background-image: url(../KeyframesKick/08.png);}
+	56%{background-image: url(../KeyframesKick/09.png);}
+	63%{background-image: url(../KeyframesKick/10.png);}
+	70%{background-image: url(../KeyframesKick/11.png);}
+	77%{background-image: url(../KeyframesKick/12.png);}
+	84%{background-image: url(../KeyframesKick/13.png);}
+	91%{background-image: url(../KeyframesKick/14.png);}
+	100%{background-image: url(../KeyframesKick/15.png);}
+}
+@keyframes enemystandAnim{
+	0%{background-image: url(../KeyframesEnemyStandingNOBG/01.png);}
+	10%{background-image: url(../KeyframesEnemyStandingNOBG/02.png);}
+	20%{background-image: url(../KeyframesEnemyStandingNOBG/03.png);}
+	30%{background-image: url(../KeyframesEnemyStandingNOBG/04.png);}
+	40%{background-image: url(../KeyframesEnemyStandingNOBG/05.png);}
+	50%{background-image: url(../KeyframesEnemyStandingNOBG/06.png);}
+	60%{background-image: url(../KeyframesEnemyStandingNOBG/07.png);}
+	70%{background-image: url(../KeyframesEnemyStandingNOBG/08.png);}
+	80%{background-image: url(../KeyframesEnemyStandingNOBG/09.png);}
+	90%{background-image: url(../KeyframesEnemyStandingNOBG/10.png);}
+	100%{background-image: url(../KeyframesEnemyStandingNOBG/11.png);}
+	/* 100%{background-image: url(../KeyframesEnemyStandingNOBG/12.png);} */
+	/* 100%{background-image: url(../KeyframesEnemyStandingNOBG/13.png);} */
+}
+@keyframes enemyhitAnim{
+	0%{background-image: url(../KeyframesEnemyHit/01.png);}
+	11%{background-image: url(../KeyframesEnemyHit/02.png);}
+	22%{background-image: url(../KeyframesEnemyHit/03.png);}
+	33%{background-image: url(../KeyframesEnemyHit/04.png);}
+	44%{background-image: url(../KeyframesEnemyHit/05.png);}
+	55%{background-image: url(../KeyframesEnemyHit/06.png);}
+	66%{background-image: url(../KeyframesEnemyHit/07.png);}
+	77%{background-image: url(../KeyframesEnemyHit/08.png);}
+	88%{background-image: url(../KeyframesEnemyHit/09.png);}
+	100%{background-image: url(../KeyframesEnemyHit/10.png);}
+}
+@keyframes enemydieAnim{
+	0%{background-image: url(../KeyframesEnemyDie/01.png);}
+	1%{background-image: url(../KeyframesEnemyDie/02.png);}
+	2%{background-image: url(../KeyframesEnemyDie/03.png);}
+	3%{background-image: url(../KeyframesEnemyDie/04.png);}
+	4%{background-image: url(../KeyframesEnemyDie/05.png);}
+	5%{background-image: url(../KeyframesEnemyDie/06.png);}
+	6%{background-image: url(../KeyframesEnemyDie/07.png);}
+	7%{background-image: url(../KeyframesEnemyDie/08.png);}
+	8%{background-image: url(../KeyframesEnemyDie/09.png);}
+	9%{background-image: url(../KeyframesEnemyDie/010.png);}
+	10%{background-image: url(../KeyframesEnemyDie/11.png);}
+	11%{background-image: url(../KeyframesEnemyDie/12.png);}
+	12%{background-image: url(../KeyframesEnemyDie/13.png);}
+	13%{background-image: url(../KeyframesEnemyDie/14.png);}
+	14%{background-image: url(../KeyframesEnemyDie/15.png);}
+	15%{background-image: url(../KeyframesEnemyDie/16.png);}
+	100%{background-image: url(../KeyframesEnemyDie/16.png);}
+}
+@keyframes enemypunchAnim{
+	0%{background-image: url(../KeyframesEnemyPunch/01.png);}
+	8%{background-image: url(../KeyframesEnemyPunch/02.png);}
+	16%{background-image: url(../KeyframesEnemyPunch/03.png);}
+	24%{background-image: url(../KeyframesEnemyPunch/04.png);}
+	32%{background-image: url(../KeyframesEnemyPunch/05.png);}
+	40%{background-image: url(../KeyframesEnemyPunch/06.png);}
+	48%{background-image: url(../KeyframesEnemyPunch/07.png);}
+	56%{background-image: url(../KeyframesEnemyPunch/08.png);}
+	64%{background-image: url(../KeyframesEnemyPunch/09.png);}
+	72%{background-image: url(../KeyframesEnemyPunch/10.png);}
+	80%{background-image: url(../KeyframesEnemyPunch/11.png);}
+	88%{background-image: url(../KeyframesEnemyPunch/12.png);}
+	100%{background-image: url(../KeyframesEnemyPunch/13.png);}
+}
+@keyframes hitAnim{
+	0%{background-image: url(../KeyframesHit/01.png);}
+	11%{background-image: url(../KeyframesHit/02.png);}
+	22%{background-image: url(../KeyframesHit/03.png);}
+	33%{background-image: url(../KeyframesHit/04.png);}
+	44%{background-image: url(../KeyframesHit/05.png);}
+	55%{background-image: url(../KeyframesHit/06.png);}
+	66%{background-image: url(../KeyframesHit/07.png);}
+	77%{background-image: url(../KeyframesHit/08.png);}
+	88%{background-image: url(../KeyframesHit/09.png);}
+	100%{background-image: url(../KeyframesHit/10.png);}
+}
+@keyframes enemykickAnim{
+	0%{background-image: url(../KeyframesEnemyKick/01.png);}
+	6%{background-image: url(../KeyframesEnemyKick/02.png);}
+	12%{background-image: url(../KeyframesEnemyKick/03.png);}
+	18%{background-image: url(../KeyframesEnemyKick/04.png);}
+	24%{background-image: url(../KeyframesEnemyKick/05.png);}
+	30%{background-image: url(../KeyframesEnemyKick/06.png);}
+	36%{background-image: url(../KeyframesEnemyKick/07.png);}
+	42%{background-image: url(../KeyframesEnemyKick/08.png);}
+	48%{background-image: url(../KeyframesEnemyKick/09.png);}
+	54%{background-image: url(../KeyframesEnemyKick/10.png);}
+	60%{background-image: url(../KeyframesEnemyKick/11.png);}
+	66%{background-image: url(../KeyframesEnemyKick/12.png);}
+	72%{background-image: url(../KeyframesEnemyKick/13.png);}
+	78%{background-image: url(../KeyframesEnemyKick/14.png);}
+	84%{background-image: url(../KeyframesEnemyKick/15.png);}
+	90%{background-image: url(../KeyframesEnemyKick/16.png);}
+	95%{background-image: url(../KeyframesEnemyKick/17.png);}
+	100%{background-image: url(../KeyframesEnemyKick/18.png);}
+}
+@keyframes knifeAnim{
+	0%{background-image: url(../KeyframesKnife/01.png);}
+	4%{background-image: url(../KeyframesKnife/02.png);}
+	8%{background-image: url(../KeyframesKnife/03.png);}
+	12%{background-image: url(../KeyframesKnife/04.png);}
+	16%{background-image: url(../KeyframesKnife/05.png);}
+	20%{background-image: url(../KeyframesKnife/06.png);}
+	24%{background-image: url(../KeyframesKnife/07.png);}
+	28%{background-image: url(../KeyframesKnife/08.png);}
+	32%{background-image: url(../KeyframesKnife/09.png);}
+	36%{background-image: url(../KeyframesKnife/10.png);}
+	40%{background-image: url(../KeyframesKnife/11.png);}
+	44%{background-image: url(../KeyframesKnife/12.png);}
+	48%{background-image: url(../KeyframesKnife/13.png);}
+	52%{background-image: url(../KeyframesKnife/14.png);}
+	56%{background-image: url(../KeyframesKnife/15.png);}
+	60%{background-image: url(../KeyframesKnife/16.png);}
+	64%{background-image: url(../KeyframesKnife/17.png);}
+	68%{background-image: url(../KeyframesKnife/18.png);}
+	72%{background-image: url(../KeyframesKnife/19.png);}
+	76%{background-image: url(../KeyframesKnife/20.png);}
+	80%{background-image: url(../KeyframesKnife/21.png);}
+	84%{background-image: url(../KeyframesKnife/22.png);}
+	88%{background-image: url(../KeyframesKnife/23.png);}
+	92%{background-image: url(../KeyframesKnife/24.png);}
+	96%{background-image: url(../KeyframesKnife/25.png);}
+	100%{background-image: url(../KeyframesKnife/26.png);}
+}
+@keyframes dieAnim {
+	0%{background-image: url(../KeyframesDie/01.png);}
+	1%{background-image: url(../KeyframesDie/02.png);}
+	2%{background-image: url(../KeyframesDie/03.png);}
+	3%{background-image: url(../KeyframesDie/04.png);}
+	4%{background-image: url(../KeyframesDie/05.png);}
+	5%{background-image: url(../KeyframesDie/06.png);}
+	6%{background-image: url(../KeyframesDie/07.png);}
+	7%{background-image: url(../KeyframesDie/08.png);}
+	8%{background-image: url(../KeyframesDie/09.png);}
+	9%{background-image: url(../KeyframesDie/10.png);}
+	10%{background-image: url(../KeyframesDie/11.png);}
+	11%{background-image: url(../KeyframesDie/12.png);}
+	12%{background-image: url(../KeyframesDie/13.png);}
+	13%{background-image: url(../KeyframesDie/14.png);}
+	14%{background-image: url(../KeyframesDie/15.png);}
+	15%{background-image: url(../KeyframesDie/16.png);}
+	16%{background-image: url(../KeyframesDie/17.png);}
+	17%{background-image: url(../KeyframesDie/18.png);}
+	100%{background-image: url(../KeyframesDie/18.png);}
+}
+@keyframes winAnim {
+	0%{background-image: url(../KeyframesWin/01.png);}
+	7%{background-image: url(../KeyframesWin/02.png);}
+	14%{background-image: url(../KeyframesWin/03.png);}
+	21%{background-image: url(../KeyframesWin/04.png);}
+	28%{background-image: url(../KeyframesWin/05.png);}
+	35%{background-image: url(../KeyframesWin/06.png);}
+	42%{background-image: url(../KeyframesWin/07.png);}
+	49%{background-image: url(../KeyframesWin/08.png);}
+	56%{background-image: url(../KeyframesWin/09.png);}
+	63%{background-image: url(../KeyframesWin/10.png);}
+	70%{background-image: url(../KeyframesWin/11.png);}
+	77%{background-image: url(../KeyframesWin/12.png);}
+	84%{background-image: url(../KeyframesWin/13.png);}
+	90%{background-image: url(../KeyframesWin/14.png);}
+	95%{background-image: url(../KeyframesWin/15.png);}
+	100%{background-image: url(../KeyframesWin/16.png);}
+}
+@keyframes dodgeAnim {
+	0%{background-image: url(../KeyframesDodge/01.png);}
+	7%{background-image: url(../KeyframesDodge/02.png);}
+	14%{background-image: url(../KeyframesDodge/03.png);}
+	21%{background-image: url(../KeyframesDodge/04.png);}
+	28%{background-image: url(../KeyframesDodge/05.png);}
+	35%{background-image: url(../KeyframesDodge/06.png);}
+	42%{background-image: url(../KeyframesDodge/07.png);}
+	49%{background-image: url(../KeyframesDodge/08.png);}
+	56%{background-image: url(../KeyframesDodge/09.png);}
+	63%{background-image: url(../KeyframesDodge/10.png);}
+	70%{background-image: url(../KeyframesDodge/11.png);}
+	77%{background-image: url(../KeyframesDodge/12.png);}
+	84%{background-image: url(../KeyframesDodge/13.png);}
+	90%{background-image: url(../KeyframesDodge/14.png);}
+	95%{background-image: url(../KeyframesDodge/15.png);}
+	100%{background-image: url(../KeyframesDodge/16.png);}
+}
+@keyframes enemypunch2Anim{
+	0%{background-image: url(../KeyframesEnemyPunch2/01.png);}
+	7%{background-image: url(../KeyframesEnemyPunch2/02.png);}
+	14%{background-image: url(../KeyframesEnemyPunch2/03.png);}
+	21%{background-image: url(../KeyframesEnemyPunch2/04.png);}
+	28%{background-image: url(../KeyframesEnemyPunch2/05.png);}
+	35%{background-image: url(../KeyframesEnemyPunch2/06.png);}
+	42%{background-image: url(../KeyframesEnemyPunch2/07.png);}
+	49%{background-image: url(../KeyframesEnemyPunch2/08.png);}
+	56%{background-image: url(../KeyframesEnemyPunch2/09.png);}
+	63%{background-image: url(../KeyframesEnemyPunch2/10.png);}
+	70%{background-image: url(../KeyframesEnemyPunch2/11.png);}
+	77%{background-image: url(../KeyframesEnemyPunch2/12.png);}
+	84%{background-image: url(../KeyframesEnemyPunch2/13.png);}
+	90%{background-image: url(../KeyframesEnemyPunch2/14.png);}
+	95%{background-image: url(../KeyframesEnemyPunch2/15.png);}
+	100%{background-image: url(../KeyframesEnemyPunch2/16.png);}
+}
+@keyframes enemydodgeAnim{
+	0%{background-image: url(../KeyframesEnemyDodge/01.png);}
+	9%{background-image: url(../KeyframesEnemyDodge/02.png);}
+	18%{background-image: url(../KeyframesEnemyDodge/03.png);}
+	27%{background-image: url(../KeyframesEnemyDodge/04.png);}
+	36%{background-image: url(../KeyframesEnemyDodge/05.png);}
+	45%{background-image: url(../KeyframesEnemyDodge/06.png);}
+	54%{background-image: url(../KeyframesEnemyDodge/07.png);}
+	63%{background-image: url(../KeyframesEnemyDodge/08.png);}
+	72%{background-image: url(../KeyframesEnemyDodge/09.png);}
+	81%{background-image: url(../KeyframesEnemyDodge/10.png);}
+	90%{background-image: url(../KeyframesEnemyDodge/11.png);}
+	100%{background-image: url(../KeyframesEnemyDodge/12.png);}
+}
+	/* Keyframes Animations */
+#khoros.standing,
+#player.standing{
+	animation:standnewAnim 1s infinite linear;
+	background-size: contain;
+	background-image: no-repeat;
+}
+#lvl1 > #player.punching{
+	animation:punchAnim 1s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 1260px;
+	height:520px;
+	/* background-color: red;  */
+	position: absolute;
+	bottom: 0px;
+	left: 100px;
+}
+#lvl1 > #player.kicking{
+	animation:kickAnim 1.7s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 1330px;
+	height:650px;
+	/* background-color: red;  */
+	position: absolute;
+	bottom: 20px;
+	left: 100px;
+}
+#lvl1 > #player.gothit{
+	animation: hitAnim 0.7s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 600px;
+	height:370px;
+	/* background-color: red;  */
+	position: absolute;
+	bottom: 20px;
+	left: 40px;
+
+}
+#lvl1 > #player.knifing{
+	animation: knifeAnim 1.8s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 1265px;
+	height:620px;
+	/* background-color: red;  */
+	position: absolute;
+	bottom: 0px;
+	left: 50px;
+}
+#lvl1 > #player.died{
+	animation: dieAnim 15s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 860px;
+	height:520px;
+	/* background-color: red;  */
+	position: absolute;
+	bottom: -20px;
+	left: 60px;
+}
+#lvl1 > #player.won{
+	animation: winAnim 2s infinite linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 830px;
+	height:570px;
+	/* background-color: red;  */
+	position: absolute;
+	bottom: 32px;
+	left: 70px;
+}
+#lvl1 > #player.dodged{
+	animation: dodgeAnim 0.7s infinite linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 640px;
+	height:440px;
+	/* background-color: red;  */
+	position: absolute;
+	bottom: 5px;
+	left: -20px;
+}
+#lvl1 > #enemy.standing{
+	animation:enemystandAnim 1s infinite linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#lvl1 > #enemy.gothit{
+	animation:enemyhitAnim 0.7s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 670px;
+	height:370px;
+	/* background-color: red;  */
+	position: absolute;
+	bottom: 0px;
+	right: -30px;
+}
+#lvl1 > #enemy.died{
+	animation:enemydieAnim 15.0s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 780px;
+	height:450px;
+	/* background-color: red;  */
+	position: absolute;
+	bottom: -35px;
+	right: 25px;
+}
+#lvl1 > #enemy.punching{
+	animation:enemypunchAnim 1.5s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 1200px;
+	height:550px;
+	/* background-color: red;  */
+	position: absolute;
+	bottom: 30px;
+	right: 50px;
+}
+#lvl1 > #enemy.punching2{
+	animation:enemypunch2Anim 1.2s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 1150px;
+	height:525px;
+	/* background-color: red;  */
+	position: absolute;
+	bottom: -50px;
+	right: 50px;
+}
+#lvl1 > #enemy.kicking{
+	animation:enemykickAnim 2s linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 1175px;
+	height:620px;
+	/* background-color: red;  */
+	position: absolute;
+	bottom: 10px;
+	right: 50px;
+}
+#lvl1 > #enemy.dodged{
+	animation: enemydodgeAnim 0.7s infinite linear;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 680px;
+	height:470px;
+	/* background-color: red;  */
+	position: absolute;
+	bottom: -15px;
+	right: -40px;
+}

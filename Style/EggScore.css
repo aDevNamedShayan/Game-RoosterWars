@@ -1,0 +1,21 @@
+#yourEgg{
+	width: 175px;
+	height: 88px;
+	background: url(../img/EggValue.png) no-repeat;
+	background-size: contain;
+	position:absolute;
+	right: 150px;
+	z-index: 50;
+	opacity: 0;
+	transition: opacity 3s ease-in-out;
+}
+#yourEgg > h1{
+	text-align: center; 
+	font-size: 25px; 
+	line-height: 50px; 
+	user-select: none; 
+	font-weight: 1000;
+	position: absolute;
+	right: 115px;
+	color: whitesmoke;
+}
